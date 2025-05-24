@@ -19,5 +19,12 @@
         "date": "2025-05-24",
         "author": "The Codagonist",
         "content": "<p>Lorem ipsum...</p><p>... dolor sit amet</p>"
+    },
+    {
+        "id": "a-fourth-post",
+        "title": "Just a fourth post",
+        "date": "2025-05-24",
+        "author": "The Codagonist",
+        "content": "<p>Just a simple fourth post to test the commit user</p>"
     }
 ]
