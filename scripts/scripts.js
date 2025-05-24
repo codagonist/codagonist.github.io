@@ -1,6 +1,6 @@
 (function () {
     fetch('/posts.json')
-        .then(responsse => response.json())
+        .then(response => response.json())
         .then(posts => {
             const list = document.getElementById('posts');
             posts.forEach(post => {
