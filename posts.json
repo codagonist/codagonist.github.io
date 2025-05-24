@@ -11,6 +11,13 @@
         "title": "Hello World - Part Deux",
         "date": "2025-05-24",
         "author": "The Codagonist",
-        "content": "<p>And a econd article</p>"
+        "content": "<p>And a second article</p>"
+    },
+    {
+        "id": "storm-is-brewing",
+        "title": "A storm is brewing",
+        "date": "2025-05-24",
+        "author": "The Codagonist",
+        "content": "<p>Lorem ipsum...</p><p>... dolor sit amet</p>"
     }
 ]
