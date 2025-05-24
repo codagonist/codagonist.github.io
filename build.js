@@ -13,9 +13,9 @@ fs.mkdirSync('output/posts', { recursive: true });
 // Generate post pages
 const postLinks = posts.map(post => {
     const html = postTemplate 
-        .replace('{{title}}/g', post.title)
-        .replace('{{date}}/g', post.date)
-        .replace('{{content}}/g', post.content);
+        .replace(/{{title}}/g, post.title)
+        .replace(/{{date}}/g, post.date)
+        .replace(/{{content}}/g, post.content);
 
     fs.writeFileSync(`output/posts/${post.id}.html`, html);
     return `<li><a href="posts/${post.id}.html">${post.title}</a> — ${post.date}</li>`;
