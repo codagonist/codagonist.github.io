@@ -1,0 +1,16 @@
+[
+    {
+        "id": "hello-world",
+        "title": "Hello World",
+        "date": "2025-05-24",
+        "author": "The Codagonist",
+        "content": "<p>This is my first article on The Codagonist</p>"
+    },
+    {
+        "id": "hello-world-part-deux",
+        "title": "Hello World - Part Deux",
+        "date": "2025-05-24",
+        "author": "The Codagonist",
+        "content": "<p>And a econd article</p>"
+    }
+]
