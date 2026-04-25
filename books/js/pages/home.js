@@ -38,6 +38,7 @@ function renderRecent() {
     return `
       <div class="book-item" onclick="location.href='detail.html?isbn=${book.isbn}'">
         <div class="book-cover" style="background:${book.color ?? '#B5D4F4'}">
+          ${book.coverUrl ? `<img src="${book.coverUrl}" alt="" onerror="this.remove()">` : ''}
           <span class="initials">${initials}</span>
         </div>
         <div class="book-meta">
