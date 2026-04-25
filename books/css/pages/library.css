@@ -127,5 +127,6 @@
 }
 .jump-toast.visible { opacity: 1; }
 
-/* meta bar (count + sort) */
-.meta-bar { animation: fadeUp 0.3s ease both; animation-delay: 0.08s; }
+/* empty state */
+.state-empty         { display: none; }
+.state-empty.visible { display: flex; }
