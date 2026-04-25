@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Scan — My Books</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/pages/scan.css">
+</head>
+<body>
+<div class="app">
+
+  <header class="topbar">
+    <a class="back-btn" href="index.html" aria-label="Back">
+      <svg width="16" height="16" viewBox="0 0 20 20" fill="none">
+        <path d="M13 5l-5 5 5 5" stroke="#7A6E62" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+    <div class="topbar-title">Scan barcode</div>
+    <button class="torch-btn" id="torch-btn" aria-label="Toggle torch"
+            onclick="toggleTorch()" style="display:none">
+      <svg width="16" height="16" viewBox="0 0 20 20" fill="none">
+        <path d="M10 2v3M10 15v3M4.22 4.22l2.12 2.12M13.66 13.66l2.12 2.12M2 10h3M15 10h3M4.22 15.78l2.12-2.12M13.66 6.34l2.12-2.12"
+              stroke="#EF9F27" stroke-width="1.5" stroke-linecap="round"/>
+        <circle cx="10" cy="10" r="3" stroke="#EF9F27" stroke-width="1.5"/>
+      </svg>
+    </button>
+    <div style="width:36px" id="torch-placeholder"></div>
+  </header>
+
+  <div class="viewfinder-wrap">
+    <div class="viewfinder">
+      <video id="camera-video" autoplay playsinline muted></video>
+      <div class="viewfinder-overlay"></div>
+      <div class="scan-zone">
+        <div class="scan-box">
+          <div class="corner tl"></div>
+          <div class="corner tr"></div>
+          <div class="corner bl"></div>
+          <div class="corner br"></div>
+          <div class="scan-line" id="scan-line"></div>
+        </div>
+      </div>
+      <div class="camera-loading" id="camera-loading">
+        <div class="spinner"></div>
+        <span>Starting camera…</span>
+      </div>
+      <div class="camera-hint" id="camera-hint" style="display:none">
+        Point at the barcode on the back cover
+      </div>
+      <div class="scan-flash" id="scan-flash"></div>
+    </div>
+  </div>
+
+  <div class="manual-wrap">
+    <div class="manual-label">Or enter ISBN manually</div>
+    <div class="manual-row">
+      <input class="manual-input" id="manual-input" type="number"
+             inputmode="numeric" placeholder="9780571364886" maxlength="13">
+      <button class="manual-btn" onclick="handleManualISBN()">Look up</button>
+    </div>
+  </div>
+
+  <div class="result-wrap" id="result-wrap">
+
+    <div class="result-idle" id="result-idle">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" opacity="0.4">
+        <rect x="2"    y="7" width="3.5" height="14" rx="1.5" fill="currentColor"/>
+        <rect x="7.5"  y="7" width="2"   height="14" rx="1"   fill="currentColor"/>
+        <rect x="12"   y="7" width="3"   height="14" rx="1"   fill="currentColor"/>
+        <rect x="17"   y="7" width="2"   height="14" rx="1"   fill="currentColor"/>
+        <rect x="21.5" y="7" width="4.5" height="14" rx="1.5" fill="currentColor"/>
+      </svg>
+      <span>Scan a barcode or enter an ISBN<br>to check your collection</span>
+    </div>
+
+    <div class="result-loading" id="result-loading">
+      <div class="mini-spinner"></div>
+      <div>
+        <div class="result-loading-text">Looking up book…</div>
+        <div class="result-loading-isbn" id="loading-isbn"></div>
+      </div>
+    </div>
+
+    <div class="result-card" id="result-card">
+      <div class="result-banner" id="result-banner">
+        <div class="banner-dot"></div>
+        <span id="banner-text"></span>
+      </div>
+      <div class="result-body">
+        <div class="result-cover" id="result-cover"></div>
+        <div class="result-info">
+          <div class="result-title"  id="result-title"></div>
+          <div class="result-author" id="result-author"></div>
+          <div class="result-meta"   id="result-meta"></div>
+        </div>
+      </div>
+      <div class="result-desc" id="result-desc" style="display:none"></div>
+      <div class="result-actions" id="result-actions"></div>
+    </div>
+
+    <div class="result-error" id="result-error">
+      <div class="result-error-title">Book not found</div>
+      <div class="result-error-sub" id="result-error-sub">No results for this ISBN.</div>
+      <button class="retry-btn" onclick="resetResult()">Try another scan</button>
+    </div>
+
+  </div>
+
+  <nav class="nav">
+    <button class="nav-item" onclick="location.href='index.html'">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+        <path d="M3 12L12 4l9 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M5 10v9a1 1 0 001 1h4v-5h4v5h4a1 1 0 001-1v-9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span class="nav-label">Home</span>
+    </button>
+    <button class="nav-item" onclick="location.href='library.html'">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+        <rect x="4" y="4" width="4" height="16" rx="1" stroke="currentColor" stroke-width="1.5"/>
+        <rect x="10" y="4" width="4" height="16" rx="1" stroke="currentColor" stroke-width="1.5"/>
+        <rect x="16" y="4" width="4" height="16" rx="1" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+      <span class="nav-label">Library</span>
+    </button>
+    <button class="nav-item active">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+        <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M12 8v8M8 12h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <span class="nav-label">Add</span>
+    </button>
+  </nav>
+
+</div>
+<script src="https://fastly.jsdelivr.net/npm/barcode-detector@3/dist/iife/polyfill.min.js"></script>
+<script src="js/books.js"></script>
+<script src="js/pages/scan.js"></script>
+</body>
+</html>

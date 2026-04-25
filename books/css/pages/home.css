@@ -1,0 +1,137 @@
+/* home.css — styles for index.html */
+
+.topbar {
+  justify-content: space-between;
+  padding: 20px 20px 0;
+}
+
+.app-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 22px;
+  color: var(--ink);
+  line-height: 1;
+}
+.app-title em { font-style: italic; color: var(--teal); }
+
+.settings-btn {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border-md);
+  background: var(--bg-card);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+  flex-shrink: 0;
+}
+.settings-btn:hover  { background: #EDE8DF; border-color: var(--ink-faint); }
+.settings-btn:active { transform: scale(0.95); }
+
+/* hero */
+.hero { padding: 24px 20px 0; animation: fadeUp 0.35s ease both; animation-delay: 0.06s; }
+.hero-eyebrow {
+  font-size: 12px; font-weight: 500;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--ink-muted); margin-bottom: 6px;
+}
+.hero-heading {
+  font-family: 'DM Serif Display', serif;
+  font-size: 32px; line-height: 1.15; color: var(--ink);
+}
+.hero-heading em { font-style: italic; color: var(--teal); }
+
+/* stat cards */
+.stats {
+  display: flex; gap: 10px;
+  padding: 20px 20px 0;
+  animation: fadeUp 0.35s ease both; animation-delay: 0.12s;
+}
+.stat-card {
+  flex: 1;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px 14px 12px;
+  position: relative; overflow: hidden;
+}
+.stat-card::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 3px;
+}
+.stat-card.teal::before  { background: var(--teal-mid); }
+.stat-card.blue::before  { background: var(--blue-mid); }
+.stat-card.amber::before { background: var(--amber-mid); }
+
+.stat-number {
+  font-family: 'DM Serif Display', serif;
+  font-size: 28px; line-height: 1; color: var(--ink);
+}
+.stat-label { font-size: 11px; color: var(--ink-muted); margin-top: 4px; line-height: 1.3; }
+
+/* action buttons */
+.actions {
+  padding: 24px 20px 0;
+  display: flex; flex-direction: column; gap: 12px;
+  animation: fadeUp 0.35s ease both; animation-delay: 0.18s;
+}
+.action-btn {
+  display: flex; align-items: center; gap: 14px;
+  padding: 18px 20px;
+  border-radius: var(--radius);
+  border: none; cursor: pointer; text-align: left;
+  transition: transform 0.15s, box-shadow 0.15s;
+  position: relative; overflow: hidden; width: 100%;
+}
+.action-btn:active { transform: scale(0.98); }
+
+.action-btn.scan {
+  background: var(--teal); color: #fff;
+  box-shadow: 0 4px 16px rgba(15,110,86,0.25);
+}
+.action-btn.scan:hover { box-shadow: 0 6px 24px rgba(15,110,86,0.35); }
+
+.action-btn.search {
+  background: var(--bg-card); color: var(--ink);
+  border: 1px solid var(--border-md);
+  box-shadow: 0 2px 8px rgba(26,20,16,0.06);
+}
+.action-btn.search:hover { box-shadow: 0 4px 14px rgba(26,20,16,0.10); }
+
+.btn-icon {
+  width: 46px; height: 46px;
+  border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.action-btn.scan   .btn-icon { background: rgba(255,255,255,0.15); }
+.action-btn.search .btn-icon { background: var(--blue-light); }
+
+.btn-text { flex: 1; }
+.btn-label { font-size: 16px; font-weight: 500; line-height: 1.2; }
+.action-btn.scan   .btn-label { color: #fff; }
+.action-btn.search .btn-label { color: var(--ink); }
+
+.btn-sub  { font-size: 12px; margin-top: 2px; }
+.action-btn.scan   .btn-sub { color: rgba(255,255,255,0.65); }
+.action-btn.search .btn-sub { color: var(--ink-muted); }
+
+.btn-arrow { flex-shrink: 0; opacity: 0.5; }
+
+/* recently added */
+.recent {
+  padding: 28px 20px 0; flex: 1;
+  animation: fadeUp 0.35s ease both; animation-delay: 0.24s;
+}
+.section-header {
+  display: flex; align-items: baseline;
+  justify-content: space-between; margin-bottom: 14px;
+}
+.section-title { font-family: 'DM Serif Display', serif; font-size: 18px; color: var(--ink); }
+.section-link {
+  font-size: 12px; font-weight: 500;
+  color: var(--teal); text-decoration: none; letter-spacing: 0.02em;
+}
+.section-link:hover { text-decoration: underline; }
+
+.book-list { display: flex; flex-direction: column; gap: 8px; }
+
+.book-date { font-size: 11px; color: var(--ink-faint); flex-shrink: 0; }

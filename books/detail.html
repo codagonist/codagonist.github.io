@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Book — My Books</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/pages/detail.css">
+</head>
+<body>
+<div class="app">
+
+  <header class="topbar">
+    <a class="back-btn" href="library.html" aria-label="Back">
+      <svg width="16" height="16" viewBox="0 0 20 20" fill="none">
+        <path d="M13 5l-5 5 5 5" stroke="#7A6E62" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+    <div class="topbar-actions">
+      <button class="icon-btn" id="share-btn" aria-label="Share" onclick="shareBook()">
+        <svg width="15" height="15" viewBox="0 0 20 20" fill="none">
+          <circle cx="15" cy="4"  r="2" stroke="currentColor" stroke-width="1.5"/>
+          <circle cx="15" cy="16" r="2" stroke="currentColor" stroke-width="1.5"/>
+          <circle cx="4"  cy="10" r="2" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M6 9l7-4M6 11l7 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <button class="icon-btn danger" aria-label="Remove from collection" onclick="showDeleteSheet()">
+        <svg width="15" height="15" viewBox="0 0 20 20" fill="none">
+          <path d="M4 6h12M8 6V4h4v2M7 6l1 10h4l1-10"
+                stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="cover-wrap">
+      <div class="cover" id="cover"></div>
+    </div>
+    <div class="hero-info">
+      <div class="hero-title"  id="hero-title"></div>
+      <div class="hero-author" id="hero-author"></div>
+      <button class="status-badge" id="status-badge" onclick="cycleStatus()"></button>
+      <div class="rating-wrap" id="rating-wrap"></div>
+    </div>
+  </div>
+
+  <div class="pills-wrap" id="pills-wrap"></div>
+
+  <div class="sections">
+
+    <div class="section open" id="sec-desc">
+      <div class="section-header" onclick="toggleSection('sec-desc')">
+        <div class="section-header-left">
+          <svg width="14" height="14" viewBox="0 0 20 20" fill="none">
+            <path d="M4 5h12M4 9h12M4 13h8" stroke="var(--ink-muted)" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <span class="section-label">Description</span>
+        </div>
+        <svg class="section-chevron" width="14" height="14" viewBox="0 0 20 20" fill="none">
+          <path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="section-body">
+        <div class="desc-text" id="desc-text"></div>
+        <span class="desc-toggle" id="desc-toggle" onclick="toggleDesc()"></span>
+      </div>
+    </div>
+
+    <div class="section open" id="sec-details">
+      <div class="section-header" onclick="toggleSection('sec-details')">
+        <div class="section-header-left">
+          <svg width="14" height="14" viewBox="0 0 20 20" fill="none">
+            <rect x="3" y="3" width="14" height="14" rx="2" stroke="var(--ink-muted)" stroke-width="1.5"/>
+            <path d="M7 10h6M10 7v6" stroke="var(--ink-muted)" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <span class="section-label">Details</span>
+        </div>
+        <svg class="section-chevron" width="14" height="14" viewBox="0 0 20 20" fill="none">
+          <path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="section-body">
+        <div class="meta-table" id="meta-table"></div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- delete confirmation sheet -->
+<div class="overlay" id="delete-overlay" onclick="hideDeleteSheet(event)">
+  <div class="sheet">
+    <div class="sheet-title">Remove this book?</div>
+    <div class="sheet-sub" id="sheet-sub"></div>
+    <button class="sheet-btn destructive" onclick="deleteBook()">Remove from collection</button>
+    <button class="sheet-btn cancel"      onclick="hideDeleteSheet()">Cancel</button>
+  </div>
+</div>
+
+<nav class="nav">
+  <button class="nav-item" onclick="location.href='index.html'">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+      <path d="M3 12L12 4l9 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M5 10v9a1 1 0 001 1h4v-5h4v5h4a1 1 0 001-1v-9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <span class="nav-label">Home</span>
+  </button>
+  <button class="nav-item active" onclick="location.href='library.html'">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+      <rect x="4" y="4" width="4" height="16" rx="1" stroke="currentColor" stroke-width="1.5"/>
+      <rect x="10" y="4" width="4" height="16" rx="1" stroke="currentColor" stroke-width="1.5"/>
+      <rect x="16" y="4" width="4" height="16" rx="1" stroke="currentColor" stroke-width="1.5"/>
+    </svg>
+    <span class="nav-label">Library</span>
+  </button>
+  <button class="nav-item" onclick="location.href='scan.html'">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M12 8v8M8 12h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    </svg>
+    <span class="nav-label">Add</span>
+  </button>
+</nav>
+
+<script src="js/books.js"></script>
+<script src="js/pages/detail.js"></script>
+</body>
+</html>
