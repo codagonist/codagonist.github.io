@@ -144,13 +144,14 @@ function paintVisible() {
 }
 
 function buildListRow(book) {
-  const initials = book.title.split(' ').slice(0, 2).map(w => w[0]).join('');
-  const genre    = book.genre?.[0] ?? '';
+  const initials  = book.title.split(' ').slice(0, 2).map(w => w[0]).join('');
+  const genre     = book.genre?.[0] ?? '';
+  const coverSrc  = book.coverUrl
+    ?? `https://covers.openlibrary.org/b/isbn/${book.isbn}-S.jpg`;
   return `
     <div class="book-row" onclick="location.href='detail.html?isbn=${book.isbn}'">
       <div class="book-cover" style="background:${book.color ?? '#B5D4F4'}">
-        <img src="https://covers.openlibrary.org/b/isbn/${book.isbn}-S.jpg"
-             alt="" loading="lazy" onerror="this.remove()">
+        <img src="${coverSrc}" alt="" loading="lazy" onerror="this.remove()">
         <span class="initials">${initials}</span>
       </div>
       <div class="book-meta">
@@ -168,11 +169,12 @@ function buildListRow(book) {
 function renderGrid() {
   document.getElementById('grid-inner').innerHTML = visibleBooks.map(book => {
     const initials = book.title.split(' ').slice(0, 2).map(w => w[0]).join('');
+    const coverSrc = book.coverUrl
+      ?? `https://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`;
     return `
       <div class="grid-item" onclick="location.href='detail.html?isbn=${book.isbn}'">
         <div class="grid-cover" style="background:${book.color ?? '#B5D4F4'}">
-          <img src="https://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg"
-               alt="" loading="lazy" onerror="this.remove()">
+          <img src="${coverSrc}" alt="" loading="lazy" onerror="this.remove()">
           <span class="initials">${initials}</span>
           <div class="grid-status ${book.status ?? 'unread'}"></div>
         </div>

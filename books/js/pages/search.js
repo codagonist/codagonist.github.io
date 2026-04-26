@@ -147,11 +147,13 @@ function render() {
     const titleHl  = highlight(book.title,  q);
     const authorHl = highlight(book.author, q);
     const genre    = book.genre?.[0] ?? '';
+    const coverSrc = book.coverUrl
+      ?? `https://covers.openlibrary.org/b/isbn/${book.isbn}-S.jpg`;
     return `
       <div class="book-item" style="animation-delay:${Math.min(i * 0.03, 0.25)}s"
            onclick="location.href='detail.html?isbn=${book.isbn}'">
         <div class="book-cover" style="background:${book.color ?? '#B5D4F4'}">
-          <img src="https://covers.openlibrary.org/b/isbn/${book.isbn}-S.jpg"
+          <img src="${coverSrc}"
                alt="" loading="lazy" onerror="this.style.display='none'">
           <span class="initials">${initials}</span>
         </div>
