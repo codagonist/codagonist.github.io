@@ -132,30 +132,28 @@ function closeCameraCapture() {
 }
 
 function capturePhoto() {
-  const video  = document.getElementById('cover-video');
-  const canvas = document.createElement('canvas');
+  const video    = document.getElementById('cover-video');
+  const guide    = document.querySelector('.cover-crop-guide');
+  const videoEl  = document.getElementById('cover-video');
 
-  // crop to a portrait book-cover ratio (2:3) from the centre of the frame
-  const srcW  = video.videoWidth;
-  const srcH  = video.videoHeight;
-  const ratio = 2 / 3;
-  let cropW, cropH, cropX, cropY;
+  // get the rendered size of the video element on screen
+  const vRect = videoEl.getBoundingClientRect();
+  const gRect = guide.getBoundingClientRect();
 
-  if (srcW / srcH > ratio) {
-    cropH = srcH;
-    cropW = Math.round(srcH * ratio);
-    cropX = Math.round((srcW - cropW) / 2);
-    cropY = 0;
-  } else {
-    cropW = srcW;
-    cropH = Math.round(srcW / ratio);
-    cropX = 0;
-    cropY = Math.round((srcH - cropH) / 2);
-  }
+  // how much of the actual video frame each screen pixel represents
+  const scaleX = video.videoWidth  / vRect.width;
+  const scaleY = video.videoHeight / vRect.height;
 
-  // output at a fixed size — large enough for a crisp cover, small enough for localStorage
+  // crop coordinates in actual video pixels
+  const cropX = (gRect.left - vRect.left) * scaleX;
+  const cropY = (gRect.top  - vRect.top)  * scaleY;
+  const cropW = gRect.width  * scaleX;
+  const cropH = gRect.height * scaleY;
+
+  // output canvas — fixed size, 2:3 ratio
   const outW = 300;
   const outH = 450;
+  const canvas  = document.createElement('canvas');
   canvas.width  = outW;
   canvas.height = outH;
 
@@ -165,11 +163,9 @@ function capturePhoto() {
   const dataUrl = canvas.toDataURL('image/jpeg', 0.82);
 
   // show preview
-  document.getElementById('cover-preview-img').src    = dataUrl;
+  document.getElementById('cover-preview-img').src            = dataUrl;
   document.getElementById('cover-viewfinder').style.display   = 'none';
   document.getElementById('cover-preview-wrap').style.display = 'flex';
-
-  // store temporarily
   document.getElementById('cover-preview-wrap').dataset.dataUrl = dataUrl;
 }
 
