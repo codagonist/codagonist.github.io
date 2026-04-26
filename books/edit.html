@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Edit — My Books</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/pages/edit.css">
+</head>
+<body>
+<div class="app">
+
+  <header class="topbar">
+    <a class="back-btn" href="javascript:history.back()" aria-label="Back">
+      <svg width="16" height="16" viewBox="0 0 20 20" fill="none">
+        <path d="M13 5l-5 5 5 5" stroke="#7A6E62" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+    <div class="topbar-title">Edit book</div>
+  </header>
+
+  <div class="edit-wrap">
+
+    <!-- core info -->
+    <div class="field-group">
+      <div class="field-group-label">Book info</div>
+
+      <div class="field">
+        <label class="field-label" for="edit-title">Title</label>
+        <input class="field-input" id="edit-title" type="text" placeholder="Book title">
+      </div>
+
+      <div class="field">
+        <label class="field-label" for="edit-author">Author</label>
+        <input class="field-input" id="edit-author" type="text"
+               placeholder="Author name">
+        <span class="field-hint">Multiple authors: separate with a comma</span>
+      </div>
+
+      <div class="field">
+        <label class="field-label" for="edit-description">Description</label>
+        <textarea class="field-textarea" id="edit-description"
+                  placeholder="A short description of the book…"></textarea>
+      </div>
+    </div>
+
+    <!-- genre -->
+    <div class="field-group">
+      <div class="field-group-label">Genre</div>
+      <div class="field">
+        <div class="genre-tags" id="genre-tags"></div>
+        <div class="genre-add-row">
+          <input class="genre-input" id="genre-input" type="text"
+                 placeholder="Add a genre…" maxlength="40">
+          <button class="genre-add-btn" onclick="addGenre()">Add</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- publication details -->
+    <div class="field-group">
+      <div class="field-group-label">Publication</div>
+
+      <div class="field">
+        <label class="field-label" for="edit-publisher">Publisher</label>
+        <input class="field-input" id="edit-publisher" type="text"
+               placeholder="Publisher name">
+      </div>
+
+      <div class="field">
+        <label class="field-label" for="edit-publishedDate">Publication year</label>
+        <input class="field-input" id="edit-publishedDate" type="text"
+               placeholder="e.g. 2021" inputmode="numeric" maxlength="10">
+      </div>
+
+      <div class="field">
+        <label class="field-label" for="edit-pageCount">Page count</label>
+        <input class="field-input" id="edit-pageCount" type="number"
+               inputmode="numeric" placeholder="e.g. 320" min="1">
+      </div>
+
+      <div class="field">
+        <label class="field-label" for="edit-language">Language</label>
+        <select class="field-select" id="edit-language"></select>
+      </div>
+    </div>
+
+    <!-- identifiers -->
+    <div class="field-group">
+      <div class="field-group-label">Identifier</div>
+
+      <div class="field">
+        <label class="field-label" for="edit-isbn">ISBN</label>
+        <input class="field-input" id="edit-isbn" type="text"
+               inputmode="numeric" placeholder="13-digit ISBN">
+        <span class="field-hint">Only change this if the ISBN was scanned incorrectly</span>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- sticky save bar -->
+<div class="save-bar">
+  <button class="save-btn secondary" onclick="cancelEdit()">Cancel</button>
+  <button class="save-btn primary"   onclick="saveChanges()">Save changes</button>
+</div>
+
+<nav class="nav">
+  <button class="nav-item" onclick="location.href='index.html'">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+      <path d="M3 12L12 4l9 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M5 10v9a1 1 0 001 1h4v-5h4v5h4a1 1 0 001-1v-9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <span class="nav-label">Home</span>
+  </button>
+  <button class="nav-item active" onclick="location.href='library.html'">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+      <rect x="4" y="4" width="4" height="16" rx="1" stroke="currentColor" stroke-width="1.5"/>
+      <rect x="10" y="4" width="4" height="16" rx="1" stroke="currentColor" stroke-width="1.5"/>
+      <rect x="16" y="4" width="4" height="16" rx="1" stroke="currentColor" stroke-width="1.5"/>
+    </svg>
+    <span class="nav-label">Library</span>
+  </button>
+  <button class="nav-item" onclick="location.href='scan.html'">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M12 8v8M8 12h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    </svg>
+    <span class="nav-label">Add</span>
+  </button>
+</nav>
+
+<script src="js/books.js"></script>
+<script src="js/pages/edit.js"></script>
+</body>
+</html>
