@@ -139,3 +139,145 @@
 .sheet-btn.destructive:hover { background: #F7C1C1; }
 .sheet-btn.cancel { background: var(--bg); color: var(--ink-muted); border: 1px solid var(--border-md); }
 .sheet-btn.cancel:hover { background: #EDE8DF; }
+/* ── cover camera hint ── */
+.cover-camera-hint {
+  position: absolute; bottom: 4px; right: 4px;
+  font-size: 16px; line-height: 1;
+  opacity: 0.8; pointer-events: none;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.3));
+}
+
+/* ── camera overlay sheet ── */
+.camera-sheet {
+  background: var(--bg-card);
+  border-radius: var(--radius) var(--radius) 0 0;
+  width: 100%; max-width: 430px;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  animation: slideSheet 0.25s cubic-bezier(0.34,1.56,0.64,1) both;
+  display: flex; flex-direction: column;
+  max-height: 90dvh; overflow: hidden;
+}
+
+.camera-sheet-header {
+  display: flex; align-items: center;
+  justify-content: space-between;
+  padding: 18px 16px 14px;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.camera-sheet-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 17px; color: var(--ink);
+}
+
+/* viewfinder */
+.cover-viewfinder {
+  position: relative; flex: 1;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  background: #0D1F1A; min-height: 320px;
+}
+
+.cover-video-wrap {
+  position: relative; width: 100%; height: 100%;
+  min-height: 320px;
+  display: flex; align-items: center; justify-content: center;
+}
+
+#cover-video {
+  width: 100%; height: 100%;
+  object-fit: cover; display: block;
+}
+
+/* 2:3 crop guide */
+.cover-crop-guide {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 54%; aspect-ratio: 2 / 3;
+  border: 2px solid rgba(93,202,165,0.8);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1000px rgba(0,0,0,0.35);
+  pointer-events: none;
+}
+
+.cover-camera-loading {
+  position: absolute; inset: 0;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: 10px; color: rgba(255,255,255,0.6); font-size: 13px;
+}
+
+.cover-camera-loading .mini-spinner {
+  width: 20px; height: 20px;
+  border: 2px solid rgba(255,255,255,0.2);
+  border-top-color: var(--teal-mid);
+  border-radius: 50%; animation: spin 0.8s linear infinite;
+}
+
+.cover-camera-ui {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  display: flex; flex-direction: column;
+  align-items: center; gap: 12px; padding: 16px;
+  background: linear-gradient(transparent, rgba(0,0,0,0.5));
+}
+
+.cover-camera-ui .cover-camera-hint {
+  position: static; font-size: 12px;
+  color: rgba(255,255,255,0.7); text-align: center;
+  opacity: 1; pointer-events: auto; filter: none;
+}
+
+.shutter-btn {
+  width: 60px; height: 60px; border-radius: 50%;
+  border: 3px solid white;
+  background: rgba(255,255,255,0.25);
+  cursor: pointer; transition: transform 0.1s, background 0.1s;
+  position: relative; flex-shrink: 0;
+}
+.shutter-btn::after {
+  content: ''; position: absolute;
+  inset: 5px; border-radius: 50%;
+  background: white;
+}
+.shutter-btn:active { transform: scale(0.92); }
+
+/* preview */
+.cover-preview-wrap {
+  flex: 1; display: flex; flex-direction: column;
+  align-items: center; gap: 16px;
+  padding: 20px; background: #0D1F1A;
+  min-height: 320px; justify-content: center;
+}
+
+.cover-preview-img {
+  max-height: 280px; max-width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+  object-fit: contain;
+}
+
+.cover-preview-actions {
+  display: flex; gap: 10px; width: 100%;
+}
+
+.cover-action-btn {
+  flex: 1; padding: 12px;
+  border-radius: var(--radius-sm); border: none;
+  font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 500;
+  cursor: pointer; transition: background 0.15s;
+  background: rgba(255,255,255,0.15); color: white;
+}
+.cover-action-btn:hover    { background: rgba(255,255,255,0.25); }
+.cover-action-btn.primary  { background: var(--teal); }
+.cover-action-btn.primary:hover { background: #0D5E49; }
+
+/* remove cover */
+.remove-cover-btn {
+  width: 100%; padding: 14px; border: none;
+  border-top: 1px solid var(--border);
+  background: var(--bg-card); color: var(--red);
+  font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 500;
+  cursor: pointer; transition: background 0.15s; flex-shrink: 0;
+}
+.remove-cover-btn:hover { background: var(--red-light); }

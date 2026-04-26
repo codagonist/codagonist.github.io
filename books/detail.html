@@ -93,6 +93,52 @@
 
 </div>
 
+<!-- camera cover capture overlay -->
+<div class="overlay" id="camera-overlay">
+  <div class="camera-sheet">
+
+    <div class="camera-sheet-header">
+      <div class="camera-sheet-title">Set cover photo</div>
+      <button class="icon-btn" onclick="closeCameraCapture()" aria-label="Close">
+        <svg width="14" height="14" viewBox="0 0 20 20" fill="none">
+          <path d="M4 4l12 12M16 4L4 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- viewfinder -->
+    <div class="cover-viewfinder" id="cover-viewfinder">
+      <div class="cover-video-wrap">
+        <video id="cover-video" autoplay playsinline muted></video>
+        <div class="cover-crop-guide"></div>
+      </div>
+      <div class="cover-camera-loading" id="cover-camera-loading">
+        <div class="mini-spinner"></div>
+        <span>Starting camera…</span>
+      </div>
+      <div class="cover-camera-ui" id="cover-camera-ui" style="display:none">
+        <div class="cover-camera-hint">Centre the book cover in the frame</div>
+        <button class="shutter-btn" onclick="capturePhoto()" aria-label="Take photo"></button>
+      </div>
+    </div>
+
+    <!-- preview -->
+    <div class="cover-preview-wrap" id="cover-preview-wrap" style="display:none">
+      <img class="cover-preview-img" id="cover-preview-img" alt="Cover preview">
+      <div class="cover-preview-actions">
+        <button class="cover-action-btn" onclick="retakePhoto()">Retake</button>
+        <button class="cover-action-btn primary" onclick="confirmPhoto()">Use this photo</button>
+      </div>
+    </div>
+
+    <!-- remove existing cover option -->
+    <button class="remove-cover-btn" id="remove-cover-btn" onclick="removeCover()">
+      Remove current cover
+    </button>
+
+  </div>
+</div>
+
 <!-- delete confirmation sheet -->
 <div class="overlay" id="delete-overlay" onclick="hideDeleteSheet(event)">
   <div class="sheet">

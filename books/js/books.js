@@ -6,9 +6,9 @@
  * reading and writing the localStorage collection.
  *
  * Storage keys:
- *   books.collection  — JSON array of book objects
- *   books.cache.{isbn} — cached Google Books API response per ISBN
- *   books.seeded      — flag: true once default books.json has been imported
+ *   books.collection   — JSON array of book objects
+ *   books.cache.{isbn} — cached metadata per ISBN (Google Books or Open Library)
+ *   books.seeded       — flag: true once default books.json has been imported
  */
 
 const Books = (() => {
@@ -70,7 +70,7 @@ const Books = (() => {
     return true;
   }
 
-  // ── Google Books metadata cache ───────────────────────────────────────────
+  // ── metadata cache ────────────────────────────────────────────────────────
 
   function getCached(isbn) {
     try {
@@ -90,14 +90,37 @@ const Books = (() => {
   }
 
   /**
-   * Look up ISBN metadata. Returns cached result immediately if available,
-   * otherwise fetches from Google Books and caches the result.
+   * Look up ISBN metadata using a fallback chain:
+   *   1. localStorage cache (instant, no network)
+   *   2. Google Books API (best English coverage)
+   *   3. Open Library Search API (CORS-compatible, broader European coverage)
+   *
+   * Cover images use a separate fallback:
+   *   1. Google Books thumbnail
+   *   2. Open Library Covers API (checked via ?default=false to detect misses)
+   *   3. null — camera photo can be set manually on detail page
    */
   async function lookupISBN(isbn) {
-    const clean = cleanISBN(isbn);
+    const clean  = cleanISBN(isbn);
     const cached = getCached(clean);
     if (cached) return cached;
 
+    // try Google Books first
+    let meta = await _lookupGoogleBooks(clean);
+
+    // fall back to Open Library if Google had no result
+    if (!meta) meta = await _lookupOpenLibrary(clean);
+
+    if (!meta) return null;
+
+    // resolve best available cover
+    meta.coverUrl = await _resolveCover(clean, meta.coverUrl);
+
+    setCache(clean, meta);
+    return meta;
+  }
+
+  async function _lookupGoogleBooks(clean) {
     try {
       const res  = await fetch(
         `https://www.googleapis.com/books/v1/volumes?q=isbn:${clean}`
@@ -106,28 +129,76 @@ const Books = (() => {
       if (!data.totalItems || !data.items?.length) return null;
 
       const info = data.items[0].volumeInfo;
-      const meta = {
-        isbn,
-        title:         info.title          ?? 'Unknown title',
+      return {
+        isbn:          clean,
+        title:         info.title                    ?? 'Unknown title',
         author:        (info.authors ?? []).join(', '),
-        authors:       info.authors        ?? [],
-        genre:         info.categories     ?? [],
-        language:      info.language       ?? 'en',
-        pageCount:     info.pageCount      ?? null,
-        publisher:     info.publisher      ?? '',
-        publishedDate: info.publishedDate  ?? '',
-        description:   info.description   ?? '',
-        // prefer Google Books thumbnail, fallback to Open Library
-        coverUrl: info.imageLinks?.thumbnail?.replace('http://', 'https://')
-          ?? `https://covers.openlibrary.org/b/isbn/${clean}-L.jpg`,
-        color: randomColor(),
+        authors:       info.authors                  ?? [],
+        genre:         info.categories               ?? [],
+        language:      info.language                 ?? 'en',
+        pageCount:     info.pageCount                ?? null,
+        publisher:     info.publisher                ?? '',
+        publishedDate: info.publishedDate            ?? '',
+        description:   info.description              ?? '',
+        coverUrl:      info.imageLinks?.thumbnail?.replace('http://', 'https://') ?? null,
+        color:         randomColor(),
+        _source:       'google',
       };
-
-      setCache(clean, meta);
-      return meta;
     } catch {
       return null;
     }
+  }
+
+  async function _lookupOpenLibrary(clean) {
+    try {
+      const res  = await fetch(
+        `https://openlibrary.org/search.json?isbn=${clean}&limit=1&fields=title,author_name,subject,language,number_of_pages_median,publisher,first_publish_year,cover_i`
+      );
+      const data = await res.json();
+      if (!data.numFound || !data.docs?.length) return null;
+
+      const doc = data.docs[0];
+      return {
+        isbn:          clean,
+        title:         doc.title                           ?? 'Unknown title',
+        author:        (doc.author_name ?? []).join(', '),
+        authors:       doc.author_name                     ?? [],
+        genre:         (doc.subject ?? []).slice(0, 3),
+        language:      doc.language?.[0]                   ?? 'en',
+        pageCount:     doc.number_of_pages_median          ?? null,
+        publisher:     doc.publisher?.[0]                  ?? '',
+        publishedDate: doc.first_publish_year?.toString()  ?? '',
+        description:   '',
+        // Open Library cover by cover_i ID is more reliable than ISBN lookup
+        coverUrl:      doc.cover_i
+          ? `https://covers.openlibrary.org/b/id/${doc.cover_i}-L.jpg`
+          : null,
+        color:         randomColor(),
+        _source:       'openlibrary',
+      };
+    } catch {
+      return null;
+    }
+  }
+
+  /**
+   * Try to resolve the best available cover URL.
+   * Uses ?default=false on Open Library to detect missing covers (returns 404)
+   * rather than a blank placeholder image.
+   */
+  async function _resolveCover(clean, existingUrl) {
+    // if we already have a cover from Google Books, use it
+    if (existingUrl) return existingUrl;
+
+    // try Open Library cover by ISBN
+    const olUrl = `https://covers.openlibrary.org/b/isbn/${clean}-L.jpg?default=false`;
+    try {
+      const res = await fetch(olUrl, { method: 'HEAD' });
+      if (res.ok) return olUrl.replace('?default=false', '');
+    } catch { /* no cover */ }
+
+    // no cover found — return null so camera option is shown
+    return null;
   }
 
   // ── seed from books.json on first load ────────────────────────────────────

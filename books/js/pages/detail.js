@@ -38,6 +38,11 @@ function initPage() {
   renderMetaTable();
 }
 
+function updateRemoveCoverBtn() {
+  const btn = document.getElementById('remove-cover-btn');
+  if (btn) btn.style.display = book.coverUrl ? 'block' : 'none';
+}
+
 function showNotFound() {
   document.body.innerHTML = `
     <div style="display:flex;flex-direction:column;align-items:center;
@@ -63,17 +68,144 @@ function persist() {
 }
 
 // ── cover ────────────────────────────────────────────────────────────────────
+let cameraStream = null;
+
 function renderCover() {
   const el       = document.getElementById('cover');
   const initials = book.title.split(' ').slice(0, 2).map(w => w[0]).join('');
-  const src      = book.coverUrl
-    ?? `https://covers.openlibrary.org/b/isbn/${book.isbn}-L.jpg`;
 
   el.style.background = book.color ?? '#B5D4F4';
-  el.innerHTML = `
-    <img src="${src}" alt="" onerror="this.remove()">
-    <span class="initials">${initials}</span>`;
+  el.onclick          = openCameraCapture;
+  el.title            = 'Tap to set cover photo';
+  el.style.cursor     = 'pointer';
+
+  if (book.coverUrl) {
+    el.innerHTML = `
+      <img src="${book.coverUrl}" alt="" onerror="this.remove()">
+      <span class="initials">${initials}</span>
+      <div class="cover-camera-hint">📷</div>`;
+  } else {
+    // no cover — show prominent camera prompt
+    el.innerHTML = `
+      <span class="initials">${initials}</span>
+      <div class="cover-camera-hint">📷</div>`;
+  }
 }
+
+// ── camera capture ────────────────────────────────────────────────────────────
+function openCameraCapture() {
+  updateRemoveCoverBtn();
+  document.getElementById('camera-overlay').classList.add('visible');
+  startCoverCamera();
+}
+
+async function startCoverCamera() {
+  const video = document.getElementById('cover-video');
+  try {
+    cameraStream = await navigator.mediaDevices.getUserMedia({
+      video: { facingMode: { ideal: 'environment' }, width: { ideal: 1920 } }
+    });
+    video.srcObject = cameraStream;
+    await video.play();
+    document.getElementById('cover-camera-loading').style.display = 'none';
+    document.getElementById('cover-camera-ui').style.display      = 'flex';
+  } catch {
+    document.getElementById('cover-camera-loading').textContent =
+      'Camera unavailable. Please allow camera access.';
+  }
+}
+
+function stopCoverCamera() {
+  cameraStream?.getTracks().forEach(t => t.stop());
+  cameraStream = null;
+  const video = document.getElementById('cover-video');
+  video.srcObject = null;
+  document.getElementById('cover-camera-loading').style.display = 'flex';
+  document.getElementById('cover-camera-ui').style.display      = 'none';
+}
+
+function closeCameraCapture() {
+  stopCoverCamera();
+  document.getElementById('camera-overlay').classList.remove('visible');
+  document.getElementById('cover-preview-wrap').style.display = 'none';
+  document.getElementById('cover-viewfinder').style.display   = 'flex';
+}
+
+function capturePhoto() {
+  const video  = document.getElementById('cover-video');
+  const canvas = document.createElement('canvas');
+
+  // crop to a portrait book-cover ratio (2:3) from the centre of the frame
+  const srcW  = video.videoWidth;
+  const srcH  = video.videoHeight;
+  const ratio = 2 / 3;
+  let cropW, cropH, cropX, cropY;
+
+  if (srcW / srcH > ratio) {
+    cropH = srcH;
+    cropW = Math.round(srcH * ratio);
+    cropX = Math.round((srcW - cropW) / 2);
+    cropY = 0;
+  } else {
+    cropW = srcW;
+    cropH = Math.round(srcW / ratio);
+    cropX = 0;
+    cropY = Math.round((srcH - cropH) / 2);
+  }
+
+  // output at a fixed size — large enough for a crisp cover, small enough for localStorage
+  const outW = 300;
+  const outH = 450;
+  canvas.width  = outW;
+  canvas.height = outH;
+
+  const ctx = canvas.getContext('2d');
+  ctx.drawImage(video, cropX, cropY, cropW, cropH, 0, 0, outW, outH);
+
+  const dataUrl = canvas.toDataURL('image/jpeg', 0.82);
+
+  // show preview
+  document.getElementById('cover-preview-img').src    = dataUrl;
+  document.getElementById('cover-viewfinder').style.display   = 'none';
+  document.getElementById('cover-preview-wrap').style.display = 'flex';
+
+  // store temporarily
+  document.getElementById('cover-preview-wrap').dataset.dataUrl = dataUrl;
+}
+
+function retakePhoto() {
+  document.getElementById('cover-preview-wrap').style.display = 'none';
+  document.getElementById('cover-viewfinder').style.display   = 'flex';
+}
+
+function confirmPhoto() {
+  const dataUrl = document.getElementById('cover-preview-wrap').dataset.dataUrl;
+  if (!dataUrl) return;
+
+  book.coverUrl = dataUrl;
+  persist();
+  closeCameraCapture();
+  renderCover();
+  flashSaved(document.getElementById('cover'));
+}
+
+function removeCover() {
+  book.coverUrl = null;
+  persist();
+  // also clear from cache so a re-lookup can find a better one
+  try {
+    const cacheKey = 'books.cache.' + Books.cleanISBN(book.isbn);
+    const cached   = JSON.parse(localStorage.getItem(cacheKey) ?? 'null');
+    if (cached) { cached.coverUrl = null; localStorage.setItem(cacheKey, JSON.stringify(cached)); }
+  } catch { /* ignore */ }
+  closeCameraCapture();
+  renderCover();
+}
+
+// close overlay when tapping backdrop
+document.getElementById('camera-overlay').addEventListener('click', e => {
+  if (e.target === document.getElementById('camera-overlay')) closeCameraCapture();
+});
 
 // ── status ───────────────────────────────────────────────────────────────────
 function renderStatus() {
