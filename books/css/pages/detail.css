@@ -141,19 +141,21 @@
 .sheet-btn.cancel:hover { background: #EDE8DF; }
 /* ── camera overlay — centred, not bottom-pinned ── */
 #camera-overlay {
-  align-items: center;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 .camera-sheet {
-  border-radius: var(--radius);
+  border-radius: var(--radius) !important;
   margin: 16px;
   max-height: calc(100dvh - 32px);
+  width: calc(100% - 32px) !important;
 }
 
 .cover-camera-ui {
-  background: linear-gradient(transparent, rgba(0,0,0,0.65) 30%);
-  padding-bottom: 20px;
-  padding-top: 40px;
+  background: linear-gradient(transparent, rgba(0,0,0,0.75) 20%) !important;
+  padding-bottom: 24px !important;
+  padding-top: 60px !important;
 }
 
 /* ── cover camera hint ── */
@@ -167,12 +169,10 @@
 /* ── camera overlay sheet ── */
 .camera-sheet {
   background: var(--bg-card);
-  border-radius: var(--radius) var(--radius) 0 0;
-  width: 100%; max-width: 430px;
   padding-bottom: env(safe-area-inset-bottom, 0px);
   animation: slideSheet 0.25s cubic-bezier(0.34,1.56,0.64,1) both;
   display: flex; flex-direction: column;
-  max-height: 90dvh; overflow: hidden;
+  overflow: hidden;
 }
 
 .camera-sheet-header {
@@ -235,8 +235,7 @@
 .cover-camera-ui {
   position: absolute; bottom: 0; left: 0; right: 0;
   display: flex; flex-direction: column;
-  align-items: center; gap: 12px; padding: 16px;
-  background: linear-gradient(transparent, rgba(0,0,0,0.5));
+  align-items: center; gap: 12px;
 }
 
 .cover-camera-ui .cover-camera-hint {
