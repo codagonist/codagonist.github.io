@@ -139,6 +139,23 @@
 .sheet-btn.destructive:hover { background: #F7C1C1; }
 .sheet-btn.cancel { background: var(--bg); color: var(--ink-muted); border: 1px solid var(--border-md); }
 .sheet-btn.cancel:hover { background: #EDE8DF; }
+/* ── camera overlay — centred, not bottom-pinned ── */
+#camera-overlay {
+  align-items: center;
+}
+
+.camera-sheet {
+  border-radius: var(--radius);
+  margin: 16px;
+  max-height: calc(100dvh - 32px);
+}
+
+.cover-camera-ui {
+  background: linear-gradient(transparent, rgba(0,0,0,0.65) 30%);
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+
 /* ── cover camera hint ── */
 .cover-camera-hint {
   position: absolute; bottom: 4px; right: 4px;
