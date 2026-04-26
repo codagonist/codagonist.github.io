@@ -218,3 +218,7 @@
   cursor: pointer; color: var(--ink); transition: background 0.15s;
 }
 .retry-btn:hover { background: #EDE8DF; }
+/* hide initials when cover image loaded */
+.cover:has(img) .initials,
+.grid-cover:has(img) .initials,
+.result-cover:has(img) { font-size: 0; }

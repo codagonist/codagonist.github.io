@@ -297,3 +297,7 @@
   cursor: pointer; transition: background 0.15s; flex-shrink: 0;
 }
 .remove-cover-btn:hover { background: var(--red-light); }
+/* hide initials when cover image loaded */
+.cover:has(img) .initials,
+.grid-cover:has(img) .initials,
+.result-cover:has(img) { font-size: 0; }

@@ -130,3 +130,7 @@
 /* empty state */
 .state-empty         { display: none; }
 .state-empty.visible { display: flex; }
+/* hide initials when cover image loaded */
+.cover:has(img) .initials,
+.grid-cover:has(img) .initials,
+.result-cover:has(img) { font-size: 0; }
