@@ -244,8 +244,13 @@ body {
   position: absolute; inset: 0;
   width: 100%; height: 100%;
   object-fit: cover;
+  z-index: 2;
 }
 .book-cover .initials { position: relative; z-index: 1; }
+
+/* hide initials when an img is in the DOM (fails → onerror removes it → initials show) */
+.book-cover img ~ .initials,
+.grid-cover  img ~ .initials { display: none; }
 
 .book-meta { flex: 1; min-width: 0; }
 

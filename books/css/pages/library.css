@@ -79,7 +79,7 @@
   overflow: hidden; position: relative;
   box-shadow: 0 2px 8px rgba(26,20,16,0.12);
 }
-.grid-cover img    { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.grid-cover img    { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 2; }
 .grid-cover .initials { position: relative; z-index: 1; }
 
 .grid-status {
