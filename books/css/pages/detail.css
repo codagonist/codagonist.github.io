@@ -14,7 +14,7 @@
 .cover {
   width: 100px; height: 140px; border-radius: 8px;
   display: flex; align-items: center; justify-content: center;
-  font-family: 'DM Serif Display', serif; font-style: italic;
+  font-family: 'Bitter', serif; font-style: italic;
   font-size: 28px; color: rgba(255,255,255,0.75);
   overflow: hidden; position: relative;
   box-shadow: 0 4px 20px rgba(26,20,16,0.15);
@@ -23,7 +23,7 @@
 .cover .initials { position: relative; z-index: 1; }
 
 .hero-info { flex: 1; min-width: 0; padding-top: 4px; }
-.hero-title  { font-family: 'DM Serif Display', serif; font-size: 22px; line-height: 1.2; color: var(--ink); }
+.hero-title  { font-family: 'Bitter', serif; font-size: 22px; line-height: 1.2; color: var(--ink); }
 .hero-author { font-size: 14px; color: var(--ink-muted); margin-top: 6px; }
 
 /* status badge */
@@ -127,7 +127,7 @@
   to   { transform: translateY(0); }
 }
 
-.sheet-title { font-family: 'DM Serif Display', serif; font-size: 18px; color: var(--ink); margin-bottom: 6px; }
+.sheet-title { font-family: 'Bitter', serif; font-size: 18px; color: var(--ink); margin-bottom: 6px; }
 .sheet-sub   { font-size: 13px; color: var(--ink-muted); line-height: 1.5; margin-bottom: 20px; }
 
 .sheet-btn {
@@ -183,7 +183,7 @@
   flex-shrink: 0;
 }
 .camera-sheet-title {
-  font-family: 'DM Serif Display', serif;
+  font-family: 'Bitter', serif;
   font-size: 17px; color: var(--ink);
 }
 

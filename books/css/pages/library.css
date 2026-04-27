@@ -2,7 +2,7 @@
 
 /* top bar extras */
 .topbar { justify-content: space-between; }
-.topbar-title { font-family: 'DM Serif Display', serif; font-size: 22px; color: var(--ink); flex: 1; }
+.topbar-title { font-family: 'Bitter', serif; font-size: 22px; color: var(--ink); flex: 1; }
 .topbar-right  { display: flex; align-items: center; gap: 8px; }
 
 .view-toggle {
@@ -74,7 +74,7 @@
 .grid-cover {
   width: 100%; aspect-ratio: 2 / 3; border-radius: 6px;
   display: flex; align-items: center; justify-content: center;
-  font-family: 'DM Serif Display', serif; font-style: italic;
+  font-family: 'Bitter', serif; font-style: italic;
   font-size: 18px; color: rgba(255,255,255,0.75);
   overflow: hidden; position: relative;
   box-shadow: 0 2px 8px rgba(26,20,16,0.12);
@@ -120,7 +120,7 @@
   transform: translate(-50%, -50%);
   width: 60px; height: 60px;
   background: rgba(44,74,53,0.9); color: #fff;
-  font-family: 'DM Serif Display', serif; font-size: 32px;
+  font-family: 'Bitter', serif; font-size: 32px;
   display: flex; align-items: center; justify-content: center;
   border-radius: 14px; pointer-events: none;
   opacity: 0; transition: opacity 0.15s; z-index: 200;

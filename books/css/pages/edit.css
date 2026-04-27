@@ -2,7 +2,7 @@
 
 .topbar { justify-content: space-between; }
 .topbar-title {
-  font-family: 'DM Serif Display', serif;
+  font-family: 'Bitter', serif;
   font-size: 20px; color: var(--ink); flex: 1;
 }
 
