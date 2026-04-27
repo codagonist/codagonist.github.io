@@ -58,8 +58,8 @@
   position: absolute; top: 0; left: 0; right: 0; height: 3px;
 }
 .stat-card.teal::before  { background: var(--teal-mid); }
-.stat-card.blue::before  { background: var(--blue-mid); }
-.stat-card.amber::before { background: var(--amber-mid); }
+.stat-card.blue::before  { background: var(--teal); }
+.stat-card.amber::before { background: var(--terra); }
 
 .stat-number {
   font-family: 'DM Serif Display', serif;
@@ -85,9 +85,9 @@
 
 .action-btn.scan {
   background: var(--teal); color: #fff;
-  box-shadow: 0 4px 16px rgba(15,110,86,0.25);
+  box-shadow: 0 4px 16px rgba(44,74,53,0.25);
 }
-.action-btn.scan:hover { box-shadow: 0 6px 24px rgba(15,110,86,0.35); }
+.action-btn.scan:hover { box-shadow: 0 6px 24px rgba(44,74,53,0.35); }
 
 .action-btn.search {
   background: var(--bg-card); color: var(--ink);
@@ -103,7 +103,7 @@
   flex-shrink: 0;
 }
 .action-btn.scan   .btn-icon { background: rgba(255,255,255,0.15); }
-.action-btn.search .btn-icon { background: var(--blue-light); }
+.action-btn.search .btn-icon { background: var(--teal-light); }
 
 .btn-text { flex: 1; }
 .btn-label { font-size: 16px; font-weight: 500; line-height: 1.2; }

@@ -52,10 +52,10 @@
   transition: background 0.15s, color 0.15s;
 }
 
-.setting-icon.teal   { background: var(--teal-light);  color: var(--teal); border-color: rgba(93,202,165,0.3); }
-.setting-icon.blue   { background: var(--blue-light);  color: var(--blue); border-color: rgba(133,183,235,0.3); }
-.setting-icon.amber  { background: var(--amber-light); color: var(--amber); border-color: rgba(239,159,39,0.3); }
-.setting-icon.red    { background: var(--red-light);   color: var(--red);  border-color: rgba(226,75,74,0.3); }
+.setting-icon.teal   { background: var(--teal-light);  color: var(--teal);  border-color: rgba(122,158,133,0.3); }
+.setting-icon.blue   { background: var(--teal-light);  color: var(--teal);  border-color: rgba(122,158,133,0.3); }
+.setting-icon.amber  { background: var(--terra-light); color: var(--terra); border-color: rgba(192,103,74,0.3); }
+.setting-icon.red    { background: var(--red-light);   color: var(--red);   border-color: rgba(226,75,74,0.3); }
 
 .setting-text { flex: 1; min-width: 0; }
 .setting-label { font-size: 14px; font-weight: 500; color: var(--ink); }

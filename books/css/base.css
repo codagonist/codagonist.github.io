@@ -8,25 +8,35 @@
 
 /* ── design tokens ── */
 :root {
-  --bg:           #F5F0E8;
+  --bg:           #F5F0E6;
   --bg-card:      #FDFAF5;
   --ink:          #1A1410;
   --ink-muted:    #7A6E62;
   --ink-faint:    #B8AFA4;
-  --teal:         #0F6E56;
-  --teal-light:   #E1F5EE;
-  --teal-mid:     #5DCAA5;
+
+  /* primary — forest green (replaces teal) */
+  --teal:         #2C4A35;
+  --teal-light:   #E8EFE4;
+  --teal-mid:     #7A9E85;
+
+  /* accent — terracotta (replaces blue as secondary action colour) */
+  --terra:        #C0674A;
+  --terra-light:  #F5EDE9;
+  --terra-mid:    #D4876E;
+
+  /* keep blue for informational pills only */
   --blue:         #185FA5;
   --blue-light:   #E6F1FB;
   --blue-mid:     #85B7EB;
+
   --red:          #A32D2D;
   --red-light:    #FCEBEB;
   --red-mid:      #E24B4A;
   --amber:        #854F0B;
   --amber-light:  #FAEEDA;
   --amber-mid:    #EF9F27;
-  --border:       rgba(26,20,16,0.10);
-  --border-md:    rgba(26,20,16,0.16);
+  --border:       rgba(44,74,53,0.12);
+  --border-md:    rgba(44,74,53,0.20);
   --radius:       16px;
   --radius-sm:    10px;
   --radius-xs:    6px;

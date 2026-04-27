@@ -36,12 +36,12 @@
 .status-badge:active { opacity: 0.75; }
 .status-badge.read    { background: var(--teal-light);  color: var(--teal); }
 .status-badge.unread  { background: var(--bg); color: var(--ink-muted); border: 1px solid var(--border-md); }
-.status-badge.reading { background: var(--amber-light); color: var(--amber); }
+.status-badge.reading { background: var(--terra-light); color: var(--terra); }
 
 .status-badge .status-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
 .status-badge.read    .status-dot { background: var(--teal); }
 .status-badge.unread  .status-dot { background: var(--ink-faint); }
-.status-badge.reading .status-dot { background: var(--amber); }
+.status-badge.reading .status-dot { background: var(--terra); }
 
 /* stars */
 .rating-wrap { display: flex; gap: 3px; margin-top: 10px; }
