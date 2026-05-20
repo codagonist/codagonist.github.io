@@ -1,6 +1,2202 @@
 {
   "books": [
     {
+      "isbn": "9789021561936",
+      "title": "Een ongewoon gesprek met God",
+      "author": "Neale Donald Walsch",
+      "authors": [
+        "Neale Donald Walsch"
+      ],
+      "genre": [
+        "Religie",
+        "Spiritualiteit",
+        "Spiritualiteit & filosofie"
+      ],
+      "language": "nl",
+      "pageCount": 192,
+      "publisher": "Kosmos Uitgevers",
+      "publishedDate": "2016-02-09",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789024530793-L.jpg",
+      "color": "#C0DD97",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-05-20"
+    },
+    {
+      "isbn": "9789024530793",
+      "title": "Het Rhinemann spel",
+      "author": "Robert Ludlum",
+      "authors": [
+        "Robert Ludlum"
+      ],
+      "genre": [
+        "Fiction",
+        "Thriller",
+        "Espionage",
+        "Adventure fiction"
+      ],
+      "language": "nl",
+      "pageCount": null,
+      "publisher": "Luitingh",
+      "publishedDate": "2009",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789024530793-L.jpg",
+      "color": "#C0DD97",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-28"
+    },
+    {
+      "isbn": "9780312276881",
+      "title": "Het sigma protocol",
+      "author": "Robert Ludlum",
+      "authors": [
+        "Robert Ludlum"
+      ],
+      "genre": [
+        "Suspense fiction",
+        "Serial murders",
+        "Fiction, thrillers, suspense",
+        "Adventure fiction"
+      ],
+      "language": "nl",
+      "pageCount": 535,
+      "publisher": "St. Martin's Press",
+      "publishedDate": "2001",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/177963-L.jpg",
+      "color": "#B5D4F4",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-28"
+    },
+    {
+      "isbn": "9781409116608",
+      "title": "Het janson dilemma",
+      "author": "Robert Ludlum",
+      "authors": [
+        "Robert Ludlum"
+      ],
+      "genre": [
+        "Fiction, suspense",
+        "Fiction, thrillers, general",
+        "Fiction, thrillers, suspense"
+      ],
+      "language": "nl",
+      "pageCount": 400,
+      "publisher": "Orion Publishing Group, Limited",
+      "publishedDate": "2014",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781409116608-L.jpg",
+      "color": "#FAC775",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-28"
+    },
+    {
+      "isbn": "9789024514564",
+      "title": "Het medusa ultimatum",
+      "author": "Robert Ludlum",
+      "authors": [
+        "Robert Ludlum"
+      ],
+      "genre": [
+        "Fiction",
+        "Thriller",
+        "Espionage",
+        "Adventure fiction"
+      ],
+      "language": "nl",
+      "pageCount": null,
+      "publisher": "Luitingh-Sijthoff",
+      "publishedDate": "1998",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/13730302-L.jpg",
+      "color": "#F5C4B3",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-28"
+    },
+    {
+      "isbn": "9780394584082",
+      "title": "The Bourne Ultimatum",
+      "author": "Robert Ludlum",
+      "authors": [
+        "Robert Ludlum"
+      ],
+      "genre": [
+        "Fiction, thrillers, espionage",
+        "Spy stories",
+        "Adventure stories",
+        "Fiction, thrillers, general"
+      ],
+      "language": "en",
+      "pageCount": 611,
+      "publisher": "Random House",
+      "publishedDate": "1990",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/5412522-L.jpg",
+      "color": "#F4C0D1",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-28"
+    },
+    {
+      "isbn": "9780752858548",
+      "title": "The Bourne Identity",
+      "author": "Robert Ludlum",
+      "authors": [
+        "Robert Ludlum"
+      ],
+      "genre": [
+        "Fiction, thrillers, espionage",
+        "Fiction, action & adventure",
+        "Terrorists, fiction",
+        "Amnesia, fiction"
+      ],
+      "language": "en",
+      "pageCount": 544,
+      "publisher": "Orion",
+      "publishedDate": "2004",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/499340-L.jpg",
+      "color": "#CECBF6",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-28"
+    },
+    {
+      "isbn": "9789024572137",
+      "title": "Even tussen mij en mij",
+      "author": "Elke Wiss",
+      "authors": [
+        "Elke Wiss"
+      ],
+      "genre": [
+        "Philosophy",
+        "Self-help"
+      ],
+      "language": "nl",
+      "pageCount": null,
+      "publisher": null,
+      "publishedDate": null,
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789024572137-L.jpg",
+      "color": "#9FE1CB",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-28"
+    },
+    {
+      "isbn": "9789024576388",
+      "title": "En ze filosofeerden nog lang en gelukkig",
+      "author": "Elke Wiss",
+      "authors": [
+        "Elke Wiss"
+      ],
+      "genre": [
+        "Philosophy",
+        "Self-help"
+      ],
+      "language": "nl",
+      "pageCount": null,
+      "publisher": null,
+      "publishedDate": null,
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789024576388-L.jpg",
+      "color": "#85B7EB",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-28"
+    },
+    {
+      "isbn": "9789021578118",
+      "title": "Wat de fak",
+      "author": "Maryam Hassouni",
+      "authors": [
+        "Maryam Hassouni"
+      ],
+      "genre": [
+        "Self-help",
+        "Personal development"
+      ],
+      "language": "nl",
+      "pageCount": null,
+      "publisher": null,
+      "publishedDate": null,
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789021578118-L.jpg",
+      "color": "#FDE9C0",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-28"
+    },
+    {
+      "isbn": "9789022548462",
+      "title": "Tot stof vergaan",
+      "author": "Tami Hoag",
+      "authors": [
+        "Tami Hoag"
+      ],
+      "genre": [
+        "Fiction",
+        "Crime",
+        "Thriller",
+        "Mystery"
+      ],
+      "language": "nl",
+      "pageCount": null,
+      "publisher": "Boekerij",
+      "publishedDate": null,
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/13738988-L.jpg",
+      "color": "#D4C5F9",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-28"
+    },
+    {
+      "isbn": "9789029045803",
+      "title": "Het jurylid",
+      "author": "George Dawes Green",
+      "authors": [
+        "George Dawes Green"
+      ],
+      "genre": [
+        "Fiction, crime",
+        "Thriller",
+        "Legal thriller"
+      ],
+      "language": "nl",
+      "pageCount": 408,
+      "publisher": "Meulenhoff-M",
+      "publishedDate": "1995",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12157673-L.jpg",
+      "color": "#B8E4B8",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-28"
+    },
+    {
+      "isbn": "9789021056890",
+      "title": "Alchemised",
+      "author": "Sen Lin Yu",
+      "authors": [
+        "Sen Lin Yu"
+      ],
+      "genre": [
+        "Fantasy",
+        "Romance",
+        "Romantasy",
+        "Dark Romance"
+      ],
+      "language": "nl",
+      "pageCount": 1024,
+      "publisher": "Luitingh Sijthoff",
+      "publishedDate": "2025",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/15162548-L.jpg",
+      "color": "#FFD4B2",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-28"
+    },
+    {
+      "isbn": "9780241715192",
+      "title": "Shaolin spirit",
+      "author": "Shi Heng Yi",
+      "authors": [
+        "Shi Heng Yi",
+        "Caroline Waight"
+      ],
+      "genre": [
+        "Martial arts",
+        "Self-help",
+        "Philosophy",
+        "Mindfulness"
+      ],
+      "language": "en",
+      "pageCount": 272,
+      "publisher": "Penguin Books, Limited",
+      "publishedDate": "2025",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/15118398-L.jpg",
+      "color": "#C5E8F7",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-28"
+    },
+    {
+      "isbn": "9789077228401",
+      "title": "Tao Te Ching: de kunst van harmonie",
+      "author": "Lao Zi",
+      "authors": [
+        "Lao Zi"
+      ],
+      "genre": [
+        "Philosophy",
+        "Taoism",
+        "Spirituality",
+        "Chinese classics"
+      ],
+      "language": "nl",
+      "pageCount": 141,
+      "publisher": "Samsara",
+      "publishedDate": "2006",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/11725738-L.jpg",
+      "color": "#F9C5D0",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-28"
+    },
+    {
+      "isbn": "9781473542266",
+      "title": "De vijf van Whitechapel",
+      "author": "Hallie Rubenhold",
+      "authors": [
+        "Hallie Rubenhold"
+      ],
+      "genre": [
+        "History",
+        "True crime",
+        "Biography",
+        "Social History"
+      ],
+      "language": "nl",
+      "pageCount": 432,
+      "publisher": "Transworld Publishers Limited",
+      "publishedDate": "2019",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/9171763-L.jpg",
+      "color": "#C8EFDA",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-28"
+    },
+    {
+      "isbn": "9789024556434",
+      "title": "Het spel der tronen",
+      "author": "George R. R. Martin",
+      "authors": [
+        "George R. R. Martin"
+      ],
+      "genre": [
+        "Fantasy",
+        "High Fantasy",
+        "Epic Fantasy",
+        "Action & Adventure"
+      ],
+      "language": "nl",
+      "pageCount": 767,
+      "publisher": "Luitingh Fantasy",
+      "publishedDate": "2006",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8782363-L.jpg",
+      "color": "#D4A5A5",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-28"
+    },
+    {
+      "isbn": "9781088238646",
+      "title": "Dokkodo: the art of walking alone",
+      "author": "Rowan Eldric",
+      "authors": [
+        "Rowan Eldric"
+      ],
+      "genre": [
+        "Philosophy",
+        "Self-help",
+        "Stoicism",
+        "Martial arts philosophy"
+      ],
+      "language": "en",
+      "pageCount": null,
+      "publisher": null,
+      "publishedDate": null,
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781088238646-L.jpg",
+      "color": "#D9D9FF",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-28"
+    },
+    {
+      "isbn": "9789026345159",
+      "title": "Tiktak",
+      "author": "Chris McGeorge",
+      "authors": [
+        "Chris McGeorge"
+      ],
+      "genre": [
+        "Fiction, mystery & detective, general",
+        "Fiction, crime",
+        "Thriller"
+      ],
+      "language": "nl",
+      "pageCount": null,
+      "publisher": null,
+      "publishedDate": null,
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789026345159-L.jpg",
+      "color": "#B0E0E6",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-28"
+    },
+    {
+      "isbn": "9780764155352",
+      "title": "Hoge magie",
+      "author": "Francis Melville",
+      "authors": [
+        "Francis Melville"
+      ],
+      "genre": [
+        "Magic",
+        "Occult",
+        "Esotericism",
+        "Spirituality"
+      ],
+      "language": "nl",
+      "pageCount": 192,
+      "publisher": "Barron's Educational Series",
+      "publishedDate": "2002",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/518190-L.jpg",
+      "color": "#E8D5C4",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-28"
+    },
+    {
+      "isbn": "9780752882147",
+      "title": "Bourne Betrayal",
+      "author": "Eric Van Lustbader",
+      "authors": [
+        "Eric Van Lustbader"
+      ],
+      "genre": [
+        "Bourne, jason (fictitious character), fiction",
+        "Fiction, thrillers, espionage",
+        "Fiction, action & adventure"
+      ],
+      "language": "en",
+      "pageCount": 576,
+      "publisher": "Orion Paperbacks",
+      "publishedDate": "2007",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10467634-L.jpg",
+      "color": "#C0DD97",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780752863887",
+      "title": "The Bourne Supremacy (Bourne Trilogy, Book 2)",
+      "author": "Robert Ludlum",
+      "authors": [
+        "Robert Ludlum"
+      ],
+      "genre": [
+        "Fiction, thrillers, espionage",
+        "Bourne, jason (fictitious character), fiction",
+        "Fiction, action & adventure"
+      ],
+      "language": "eng",
+      "pageCount": 679,
+      "publisher": "Orion (an Imprint of The Orion Publishing Group Ltd )",
+      "publishedDate": "2004",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/499498-L.jpg",
+      "color": "#B5D4F4",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780752865706",
+      "title": "Robert Ludlum's the Bourne Legacy",
+      "author": "Robert Ludlum",
+      "authors": [
+        "Robert Ludlum"
+      ],
+      "genre": [
+        "Fiction, thrillers, general",
+        "Bourne, jason (fictitious character), fiction",
+        "Fiction, thrillers, suspense"
+      ],
+      "language": "en",
+      "pageCount": 544,
+      "publisher": "Orion Paperbacks",
+      "publishedDate": "2004",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/499607-L.jpg",
+      "color": "#FAC775",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9781409117834",
+      "title": "Robert Ludlums The Bourne Objective",
+      "author": "Eric Van Lustbader",
+      "authors": [
+        "Eric Van Lustbader"
+      ],
+      "genre": [
+        "Fiction",
+        "Assassins",
+        "Revenge"
+      ],
+      "language": "en",
+      "pageCount": null,
+      "publisher": "Orion",
+      "publishedDate": "2011",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/7535172-L.jpg",
+      "color": "#F5C4B3",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780006479888",
+      "title": "A Game of Thrones",
+      "author": "George R. R. Martin",
+      "authors": [
+        "George R. R. Martin"
+      ],
+      "genre": [
+        "Adult",
+        "Action & Adventure",
+        "Fantasy"
+      ],
+      "language": "pol",
+      "pageCount": 801,
+      "publisher": "Suma",
+      "publishedDate": "1996",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/9269962-L.jpg",
+      "color": "#B5D4F4",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780008402785",
+      "title": "Fire & Blood",
+      "author": "George R. R. Martin",
+      "authors": [
+        "George R. R. Martin"
+      ],
+      "genre": [
+        "Fiction, fantasy, epic",
+        "Seven kingdoms (imaginary place), fiction",
+        "Kings and rulers"
+      ],
+      "language": "spa",
+      "pageCount": 840,
+      "publisher": "HarperCollins Publishers",
+      "publishedDate": "2014",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12063529-L.jpg",
+      "color": "#85B7EB",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780385486804",
+      "title": "Into the Wild",
+      "author": "Jon Krakauer",
+      "authors": [
+        "Jon Krakauer"
+      ],
+      "genre": [
+        "Adventure and adventurers",
+        "Travelers",
+        "Journeys"
+      ],
+      "language": "heb",
+      "pageCount": 284,
+      "publisher": "Companhia das Letras",
+      "publishedDate": "1996",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/1377482-L.jpg",
+      "color": "#F4C0D1",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780062213082",
+      "title": "Molly's Game",
+      "author": "Molly Bloom",
+      "authors": [
+        "Molly Bloom"
+      ],
+      "genre": [
+        "Women poker players",
+        "Poker players",
+        "Poker"
+      ],
+      "language": "spa",
+      "pageCount": 368,
+      "publisher": "Harperaudio",
+      "publishedDate": "2014",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/11034462-L.jpg",
+      "color": "#CECBF6",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9781784162344",
+      "title": "The Five",
+      "author": "Hallie Rubenhold, Louise Brealey",
+      "authors": [
+        "Hallie Rubenhold",
+        "Louise Brealey"
+      ],
+      "genre": [
+        "London (england), social conditions",
+        "London (england), history",
+        "Jack, the ripper"
+      ],
+      "language": "eng",
+      "pageCount": 368,
+      "publisher": "Bolinda audio",
+      "publishedDate": "2019",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/9171763-L.jpg",
+      "color": "#9FE1CB",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780440222668",
+      "title": "Bad as I wannna be",
+      "author": "Dennis Rodman",
+      "authors": [
+        "Dennis Rodman"
+      ],
+      "genre": [
+        "Rodman, dennis, 1961-",
+        "Basketball, biography"
+      ],
+      "language": "eng",
+      "pageCount": 323,
+      "publisher": "Dell Publishing",
+      "publishedDate": "1997",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/9843121-L.jpg",
+      "color": "#CECBF6",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9781401308773",
+      "title": "Dead Poets Society",
+      "author": "N. H. Kleinbaum",
+      "authors": [
+        "N. H. Kleinbaum"
+      ],
+      "genre": [
+        "Movies",
+        "Motion Pictures",
+        "Films"
+      ],
+      "language": "eng",
+      "pageCount": 166,
+      "publisher": "Hyperion",
+      "publishedDate": "1989",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/6484068-L.jpg",
+      "color": "#CECBF6",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780141036144",
+      "title": "Nineteen Eighty-Four",
+      "author": "George Orwell",
+      "authors": [
+        "George Orwell"
+      ],
+      "genre": [
+        "futurology",
+        "censorship",
+        "surveillance"
+      ],
+      "language": "swe",
+      "pageCount": 318,
+      "publisher": "ENWISE",
+      "publishedDate": "1949",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/9267242-L.jpg",
+      "color": "#9FE1CB",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9784770011060",
+      "title": "Hagakure",
+      "author": "Tsunetomo Yamamoto",
+      "authors": [
+        "Tsunetomo Yamamoto"
+      ],
+      "genre": [
+        "Conduct of life",
+        "Bushido",
+        "Conducta (Ética)"
+      ],
+      "language": "jpn",
+      "pageCount": 180,
+      "publisher": "Kodansha International",
+      "publishedDate": "1973",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/1043447-L.jpg",
+      "color": "#F4C0D1",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9781471181016",
+      "title": "King",
+      "author": "Jonathan Eig",
+      "authors": [
+        "Jonathan Eig"
+      ],
+      "genre": [
+        "African Americans",
+        "Biographies",
+        "Civil rights movements"
+      ],
+      "language": "eng",
+      "pageCount": 679,
+      "publisher": "Farrar, Straus & Giroux",
+      "publishedDate": "2023",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/13460752-L.jpg",
+      "color": "#85B7EB",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780008501822",
+      "title": "Babel",
+      "author": "R. F. Kuang",
+      "authors": [
+        "R. F. Kuang"
+      ],
+      "genre": [
+        "nyt:combined-print-and-e-book-fiction=2022-09-11",
+        "New York Times bestseller",
+        "Translators"
+      ],
+      "language": "eng",
+      "pageCount": 560,
+      "publisher": "Desrotina",
+      "publishedDate": "2022",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12468631-L.jpg",
+      "color": "#F5C4B3",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9781541702691",
+      "title": "Dark Wire",
+      "author": "Joseph Cox",
+      "authors": [
+        "Joseph Cox"
+      ],
+      "genre": [],
+      "language": "eng",
+      "pageCount": 352,
+      "publisher": "PublicAffairs",
+      "publishedDate": "2024",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14605871-L.jpg",
+      "color": "#CECBF6",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "1590302486",
+      "title": "The Book of Five Rings",
+      "author": "Miyamoto Musashi",
+      "authors": [
+        "Miyamoto Musashi"
+      ],
+      "genre": [
+        "History"
+      ],
+      "language": "en",
+      "pageCount": 193,
+      "publisher": "Shambhala Publications",
+      "publishedDate": "2005-01-11",
+      "description": "The Book of Five Rings is one of the most insightful texts on the subtle arts of confrontation and victory to emerge from Asian culture. Written not only for martial artists but for anyone who wants to apply the timeless principles of this text to their life, the book analyzes the process of struggle and mastery over conflict that underlies every level of human interaction. The Book of Five Rings was composed in 1643 by the famed duelist and undefeated samurai Miyamoto Musashi. Thomas Cleary's translation is immediately accessible, with an introduction that presents the spiritual background of the warrior tradition. Along with Musashi's text, Cleary translates here another important Japanese classic on leadership and strategy, The Book of Family Traditions on the Art of War by Yagyu Munenori, which highlights the ethical and spiritual insights of Taoism and Zen as they apply to the way of the warrior.",
+      "coverUrl": "https://books.google.com/books/content?id=o06YP08dp2gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "color": "#FAC775",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780441569595",
+      "title": "Neuromancer",
+      "author": "William Gibson",
+      "authors": [
+        "William Gibson"
+      ],
+      "genre": [
+        "Fiction"
+      ],
+      "language": "en",
+      "pageCount": 300,
+      "publisher": "Ace",
+      "publishedDate": "1984",
+      "description": "Case, a nerve-damaged data thief, is recruited by a new employer for a last-chance run against a powerful artificial intelligence.",
+      "coverUrl": "https://books.google.com/books/content?id=958sAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#9FE1CB",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780380015399",
+      "title": "Satanic Bible",
+      "author": "Anton La Vey",
+      "authors": [
+        "Anton La Vey"
+      ],
+      "genre": [
+        "Body, Mind & Spirit"
+      ],
+      "language": "en",
+      "pageCount": 276,
+      "publisher": "Harper Collins",
+      "publishedDate": "1976-12-01",
+      "description": "Called \"The Black Pope\" by many of his followers, Anton La Vey began the road to High Priesthood of the Church of Satan when he was only 16 years old and an organ player in a carnival: \"On Saturday night I would see men lusting after halfnaked girls dancing at the carnival, and on Sunday morning when I was playing the organ for tent-show evangelists at the other end of the carnival lot, I would see these same men sitting in the pews with their wives and children, asking God to forgive them and purge them of carnal desires. And the next Saturday night they'd be back at The carnival or some other place of indulgence. \"I knew then that the Christian Church thrives on hypocrisy, and that man's carnal nature will out!\" From that time early in his life his path was clear. Finally, on the last night of April, 1966—Walpurgisnacht, the most important festival of the believers in witchcraft—LaVey shaved his head in the tradition of Ancient executioners and announced the formation of The Church Of Satan. He had seen the need for a church that would recapture man's body and his carnal desires as objects of celebration. \"Since worship of fleshly things produces pleasure,\" he said, \"there would then be a temple of glorious indulgence . . .\"",
+      "coverUrl": "https://books.google.com/books/content?id=6GouSabpvDIC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#CECBF6",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789046111567",
+      "title": "De cliënt",
+      "author": "John Grisham, Jan Smit",
+      "authors": [
+        "John Grisham",
+        "Jan Smit"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": 550,
+      "publisher": "",
+      "publishedDate": "2005",
+      "description": "Nadat hij getuige is geweest van de zelfmoord van een mafia-advocaat, wordt een elfjarige jongen gezocht door de mafia en de FBI.",
+      "coverUrl": null,
+      "color": "#CECBF6",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9781845963392",
+      "title": "The Ice Man",
+      "author": "Philip Carlo",
+      "authors": [
+        "Philip Carlo"
+      ],
+      "genre": [
+        "Biography & Autobiography"
+      ],
+      "language": "en",
+      "pageCount": 538,
+      "publisher": "Random House",
+      "publishedDate": "2008",
+      "description": "Carlo offers a blood-chilling insight into the mind of one of America's most prolific assassins, Richard 'the Ice Man' Kuklinski. Whilst writing this book, he spent many hours interviewing Kuklinski at Trenton State Prison in New Jersey and had the full cooperation of his family, who offered their side of the story.",
+      "coverUrl": "https://books.google.com/books/content?id=JMgBhhNCGogC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#F5C4B3",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9781409150473",
+      "title": "Miracle Cure",
+      "author": "Harlan Coben",
+      "authors": [
+        "Harlan Coben"
+      ],
+      "genre": [
+        "Fiction"
+      ],
+      "language": "en",
+      "pageCount": 0,
+      "publisher": "Orion",
+      "publishedDate": "2013-11-07",
+      "description": "Sara Lowell and Michael Silverman are the ideal celebrity couple: she's TV's most popular journalist and he's New York's hottest basketball star. Their lives would soon be shattered by Dr Harvey Riker's clinic and the miracle cure that millions seek. One-by-one his patients are getting well. One-by-one they are targeted by a serial killer.",
+      "coverUrl": "https://books.google.com/books/content?id=EnConQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#CECBF6",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9781801102148",
+      "title": "The Watchers",
+      "author": "A.M. Shine",
+      "authors": [
+        "A.M. Shine"
+      ],
+      "genre": [
+        "Fiction"
+      ],
+      "language": "en",
+      "pageCount": 0,
+      "publisher": "Head of Zeus -- an Aries Book",
+      "publishedDate": "2022-09",
+      "description": "\"A claustrophobic horror adventure set in the remote unknown forests of Galway, where mysterious creatures keep humans as pets for observation. This forest isn't charted on any map. Every car breaks down at its treeline. Mina's is no different. Left stranded, she is forced into the dark woodland only to find a woman shouting, urging Mina to run to a concrete bunker. As the door slams behind her, the building is besieged by screams. Mina finds herself in a room with a wall of glass, and an electric light that activates at nightfall, when the Watchers come above ground. These creatures emerge to observe their captive humans and terrible things happen to anyone who doesn't reach the bunker in time. Afraid and trapped among strangers, Mina is desperate for answers. Who are the Watchers and why are these creatures keeping them imprisoned, keen to watch their every move?\"--",
+      "coverUrl": "https://books.google.com/books/content?id=BxTsEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#FAC775",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789020609752",
+      "title": "Deepfake",
+      "author": "Max van Olden",
+      "authors": [
+        "Max van Olden"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": 0,
+      "publisher": "",
+      "publishedDate": "2023",
+      "description": "Liz (17) hoort op een dag niks meer van haar beste vriendin Brenda. Haar appjes worden niet gelezen, Brenda's social media zijn gewist, en dan blijkt dat Brenda in coma in het ziekenhuis ligt. Een naaktfilmpje van Brenda gaat de ronde, en Liz is vastberaden om de dader te vinden. Vanaf ca. 14 jaar.",
+      "coverUrl": null,
+      "color": "#F4C0D1",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789020609738",
+      "title": "24 uur",
+      "author": "Marcel van Driel",
+      "authors": [
+        "Marcel van Driel"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": 0,
+      "publisher": "",
+      "publishedDate": "2023",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789020609738-L.jpg",
+      "color": "#85B7EB",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789029509480",
+      "title": "De gedichten",
+      "author": "",
+      "authors": [],
+      "genre": [],
+      "language": "en",
+      "pageCount": null,
+      "publisher": "Singel Uitgevers",
+      "publishedDate": "",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/13559772-L.jpg",
+      "color": "#F4C0D1",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780141182803",
+      "title": "Modern Classics Ulysses",
+      "author": "James Joyce",
+      "authors": [
+        "James Joyce"
+      ],
+      "genre": [
+        "Fiction"
+      ],
+      "language": "en",
+      "pageCount": 0,
+      "publisher": "National Geographic Books",
+      "publishedDate": "2000-03-28",
+      "description": "'Everybody knows now that Ulysses is the greatest novel of the century' Anthony Burgess, Observer Following the events of one single day in Dublin, the 16th June 1904, and what happens to the characters Stephen Dedalus, Leopold Bloom and his wife Molly, Ulysses is a monument to the human condition. It has survived censorship, controversy and legal action, and even been deemed blasphemous, but remains an undisputed modernist classic: ceaselessly inventive, garrulous, funny, sorrowful, vulgar, lyrical and ultimately redemptive. It confirms Joyce's belief that literature 'is the eternal affirmation of the spirit of man'. 'The most important expression which the present age has found; it is a book to which we are all indebted, and from which none of us can escape' T. S. Eliot 'Intoxicating ... a towering work, in its word play surpassing even Shakespeare' Guardian",
+      "coverUrl": "https://books.google.com/books/content?id=s4iMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#F5C4B3",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780349112985",
+      "title": "The Autobiography of Martin Luther King, Jr",
+      "author": "Martin Luther King (Jr.)",
+      "authors": [
+        "Martin Luther King (Jr.)"
+      ],
+      "genre": [
+        "African American civil rights workers"
+      ],
+      "language": "en",
+      "pageCount": 400,
+      "publisher": "Little Brown",
+      "publishedDate": "2000",
+      "description": "Compiled from his own words, this history-making autobiography IS Martin Luther King: the mild-mannered, inquisitive child and student who rebelled against segregation; the dedicated young minister who constantly questioned the depths of his faith and the limits of his wisdom; the loving husband and father who sought to balance his family's needs with those of a growing nationwide movement; and the reflective, world-famous leader who was fired by a vision of equality for people everywhere. Relevant and insightful, this Autobiography offers King's seldom discussed views on some of the world's greatest and most controversial figures including John F. Kennedy, Malcolm X, Mahatma Gandhi and Richard Nixon. This book brings to life a remarkable man whose thoughts and actions speak to our most burning contemporary issues and still inspire our desires, hopes and dreams.",
+      "coverUrl": "https://books.google.com/books/content?id=ewujPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#B5D4F4",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780340999141",
+      "title": "The Awakening",
+      "author": "Lisa J. Smith",
+      "authors": [
+        "Lisa J. Smith"
+      ],
+      "genre": [
+        "Brothers"
+      ],
+      "language": "en",
+      "pageCount": 397,
+      "publisher": "Hodder & Stoughton Limited",
+      "publishedDate": "2009",
+      "description": "Two vampire brothers compete for high stakes--the love of Elena Gilbert, a beautiful high school senior who is searching for excitement.",
+      "coverUrl": "https://books.google.com/books/content?id=A_7IvgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#85B7EB",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780340999158",
+      "title": "The Fury",
+      "author": "Lisa J. Smith",
+      "authors": [
+        "Lisa J. Smith"
+      ],
+      "genre": [
+        "Elena (Fictitious character)"
+      ],
+      "language": "en",
+      "pageCount": 0,
+      "publisher": "Hodder Children's Books",
+      "publishedDate": "2009-08",
+      "description": "The danger, romance, and mystery continue in the third installment of Smith'sbestselling Vampire Diaries series.",
+      "coverUrl": "https://books.google.com/books/content?id=JlV5zgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#F5C4B3",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780749395698",
+      "title": "Mr Nice",
+      "author": "Howard Marks",
+      "authors": [
+        "Howard Marks"
+      ],
+      "genre": [
+        "Biography & Autobiography"
+      ],
+      "language": "en",
+      "pageCount": 494,
+      "publisher": "Random House",
+      "publishedDate": "1997",
+      "description": "THE BOOK: During the mid 1980's Howard Marks had forty three aliases, eighty nine phone lines and owned twenty five companies throughout the world. Whether bars, recording studios or offshore banks, all were money laundering vehicles serving the core acti",
+      "coverUrl": "https://books.google.com/books/content?id=a8wFiUJTCpcC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#9FE1CB",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9781848879867",
+      "title": "The Master Switch",
+      "author": "Tim Wu",
+      "authors": [
+        "Tim Wu"
+      ],
+      "genre": [
+        "Information technology"
+      ],
+      "language": "en",
+      "pageCount": 368,
+      "publisher": "Atlantic",
+      "publishedDate": "2012-01-01",
+      "description": "Part industrial expose, part meditation on the nature of freedom of expression, 'The Master Switch' brings to light a crucial drama - rife with indelible characters - played out over decades in the shadows of global communication.\"",
+      "coverUrl": "https://books.google.com/books/content?id=iQhApwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#F5C4B3",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9781481432085",
+      "title": "The Last Magician",
+      "author": "Lisa Maxwell",
+      "authors": [
+        "Lisa Maxwell"
+      ],
+      "genre": [
+        "Young Adult Fiction"
+      ],
+      "language": "en",
+      "pageCount": 0,
+      "publisher": "Margaret K. McElderry Books",
+      "publishedDate": "2018-08-07",
+      "description": "An instant New York Times bestseller! “Will keep you guessing until the last page.” —Cinda Williams Chima, New York Times bestselling author A girl travels back in time to find a mysterious book that could save her future in Lisa Maxwell’s “splendid series opener” (Kirkus Reviews). Stop the Magician. Steal the book. Save the future. In modern-day New York, magic is all but extinct. The remaining few who have an affinity for magic—the Mageus—live in the shadows, hiding who they are. Any Mageus who enters Manhattan becomes trapped by the Brink, a dark energy barrier that confines them to the island. Crossing it means losing their power—and often their lives. Esta is a talented thief, and she's been raised to steal magical artifacts from the sinister Order that created the Brink. With her innate ability to manipulate time, Esta can pilfer from the past, collecting these artifacts before the Order even realizes she’s there. And all of Esta’s training has been for one final job: traveling back to 1902 to steal an ancient book containing the secrets of the Order—and the Brink—before the Magician can destroy it and doom the Mageus to a hopeless future. But Old New York is a dangerous world ruled by ruthless gangs and secret societies, a world where the very air crackles with magic. Nothing is as it seems, including the Magician himself. And for Esta to save her future, she may have to betray everyone in the past.",
+      "coverUrl": "https://books.google.com/books/content?id=BMfsyQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#FAC775",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789400507906",
+      "title": "Advocaat van de duivel",
+      "author": "John Grisham",
+      "authors": [
+        "John Grisham"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": null,
+      "publisher": "",
+      "publishedDate": "2016-09-27",
+      "description": "",
+      "coverUrl": null,
+      "color": "#85B7EB",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789025368104",
+      "title": "Woutertje Pieterse",
+      "author": "Multatuli, Dik van der Meulen",
+      "authors": [
+        "Multatuli",
+        "Dik van der Meulen"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": 758,
+      "publisher": "",
+      "publishedDate": "2012",
+      "description": "Een dromerige Amsterdamse jongen uit het begin van de 19e eeuw is voortdurend in conflict met zijn kleinburgerlijk milieu.",
+      "coverUrl": "https://books.google.com/books/content?id=x1w6bwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#CECBF6",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789021426198",
+      "title": "Ready Player Two",
+      "author": "Ernest Cline",
+      "authors": [
+        "Ernest Cline"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": null,
+      "publisher": "",
+      "publishedDate": "2021",
+      "description": "Nadat hij de OASIS wedstrijd heeft gewonnen, ontvangt Wade een nieuwe uitvinding van Halliday die het RPG en zelfs de echte wereld voorgoed verandert. Wade staat aan het begin van een nieuwe queeste waarvan de inzet hoger is dan de eerste keer.",
+      "coverUrl": null,
+      "color": "#C0DD97",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789021414720",
+      "title": "Ready Player One",
+      "author": "Ernest Cline",
+      "authors": [
+        "Ernest Cline"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": null,
+      "publisher": "",
+      "publishedDate": "2018",
+      "description": "In 2045 jagen veel mensen op een schat die is achtergelaten in een virtuele wereld. Wade Watts weet als eerste een sleutel te bemachtigen, waardoor hij ineens beroemd is en in levensgevaar komt. Vanaf ca. 15 jaar.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789021414720-L.jpg",
+      "color": "#F5C4B3",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789043906241",
+      "title": "Het heilige bloed en de heilige graal",
+      "author": "Michael Baigent, Richard Leigh, Henry Lincoln",
+      "authors": [
+        "Michael Baigent",
+        "Richard Leigh",
+        "Henry Lincoln"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": 0,
+      "publisher": "",
+      "publishedDate": "2004",
+      "description": "Een op hypothesen gegronde geschiedschrijving van het ontstaan en voortbestaan van de Heilige Graal-legende.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789043906241-L.jpg",
+      "color": "#9FE1CB",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9781706117209",
+      "title": "Trapped",
+      "author": "J. A. Konrath",
+      "authors": [
+        "J. A. Konrath"
+      ],
+      "genre": [],
+      "language": "en",
+      "pageCount": 330,
+      "publisher": "",
+      "publishedDate": "2019-11-06",
+      "description": "TERRIFIED... It was supposed to be a harmless camping trip. Six wayward teenagers who'd run into trouble with the law, and their court-appointed guardians, Sara and Martin Randhurst. Three nights on a small, deserted island off of Michigan's upper peninsula. A time to bond, to learn, to heal. Then Martin told a campfire story about the island's history. Of the old civil war prison hidden in there, and the starving confederate soldiers who resorted to cannibalism to stay alive. Everyone thought it was funny. They even laughed when Martin pretended to be dragged off into the woods. But Martin didn't come back. And neither did Sara when she went in search of him. Then the laughter stopped. ...TO DEATH The group soon began to realize that this deserted island wasn't so deserted after all. And perhaps Martin's ridiculous story had more truth to it than anyone thought. What's the most horrifying thing you can imagine? This is a hundred times worse... TRAPPED by J.A. Konrath It starts where other horror ends... If you are a more sensitive (or adventurous) reader, the Konrath scale rates specific categories from 1 (lowest) to 10 (highest) to give you some idea if this is your kind of book. TRAPPED by JA Konrath Scary - 9 Violent - 10 Funny - 2 Sexy - 2 Crossover - Characters also appear in the Jack Daniels and Associates Mysteries This novel was previous published by JA Konrath under the pen name Jack Kilborn. Joe got rid of Kilborn. May he rest in peace.",
+      "coverUrl": "https://books.google.com/books/content?id=MwrFywEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#85B7EB",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9781408883358",
+      "title": "The Priory of the Orange Tree",
+      "author": "Samantha Shannon",
+      "authors": [
+        "Samantha Shannon"
+      ],
+      "genre": [
+        "Fiction"
+      ],
+      "language": "en",
+      "pageCount": 849,
+      "publisher": "Bloomsbury Publishing",
+      "publishedDate": "2020-02-06",
+      "description": "The New York Times bestselling \"epic feminist fantasy perfect for fans of Game of Thrones\" (Bustle).",
+      "coverUrl": "https://books.google.com/books/content?id=66gyEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#F5C4B3",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9781780228228",
+      "title": "Gone Girl",
+      "author": "Gillian Flynn",
+      "authors": [
+        "Gillian Flynn"
+      ],
+      "genre": [
+        "Suspense fiction"
+      ],
+      "language": "en",
+      "pageCount": 512,
+      "publisher": "",
+      "publishedDate": "2014-09-09",
+      "description": "THE ADDICTIVE No.1 BESTSELLER THAT EVERYONE IS TALKING ABOUT Who are you? What have we done to each other? These are the questions Nick Dunne finds himself asking on the morning of his fifth wedding anniversary, when his wife Amy suddenly disappears. The police suspect Nick. Amy's friends reveal that she was afraid of him, that she kept secrets from him. He swears it isn't true. A police examination of his computer shows strange searches. He says they weren't made by him. And then there are the persistent calls on his mobile phone. So what really did happen to Nick's beautiful wife?",
+      "coverUrl": "https://books.google.com/books/content?id=Hy8ungEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#CECBF6",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9781526605313",
+      "title": "Frida",
+      "author": "Hayden Herrera",
+      "authors": [
+        "Hayden Herrera"
+      ],
+      "genre": [],
+      "language": "en",
+      "pageCount": 528,
+      "publisher": "Bloomsbury Paperbacks",
+      "publishedDate": "2018-06-28",
+      "description": "The beautifully illustrated and utterly absorbing biography of one of the twentieth century's most transfixing artists Frida is the story of one of the twentieth century 's most extraordinary women, the painter Frida Kahlo. Born near Mexico City, she grew up during the turbulent days of the Mexican Revolution and, at eighteen, was the victim of an accident that left her crippled and unable to bear children. To salvage what she could from her unhappy situation, Kahlo had to learn to keep still so she began to paint. Kahlo 's unique talent was to make her one of the century 's most enduring artists. But her remarkable paintings were only one element of a rich and dramatic life. Frida is also the story of her tempestuous marriage to the muralist Diego Rivera, her love affairs with numerous, diverse men such as Isamu Noguchi and Leon Trotsky, her involvement with the Communist Party, her absorption in Mexican folklore and culture, and of the inspiration behind her unforgettable art.",
+      "coverUrl": "https://books.google.com/books/content?id=2uwXtwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#9FE1CB",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780807059098",
+      "title": "An Autobiography",
+      "author": "Mahatma Gandhi",
+      "authors": [
+        "Mahatma Gandhi"
+      ],
+      "genre": [
+        "Biography & Autobiography"
+      ],
+      "language": "en",
+      "pageCount": 568,
+      "publisher": "",
+      "publishedDate": "1993-11",
+      "description": "Portrays the life of Gandhi, describes the development of his nonviolent political protest movement, and discusses his religious beliefs.",
+      "coverUrl": "https://books.google.com/books/content?id=vwtuAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#FAC775",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789056700676",
+      "title": "Dzogchen / druk 1",
+      "author": "Dalai Lama",
+      "authors": [
+        "Dalai Lama"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": 295,
+      "publisher": "",
+      "publishedDate": "2002",
+      "description": "",
+      "coverUrl": "https://books.google.com/books/content?id=JXQSAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#9FE1CB",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789021800677",
+      "title": "Dalai Lama",
+      "author": "Mayank Chhaya, Francisca van Holthoorn",
+      "authors": [
+        "Mayank Chhaya",
+        "Francisca van Holthoorn"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": 352,
+      "publisher": "",
+      "publishedDate": "2008",
+      "description": "Geautoriseerde biografie over de Dalai Lama door een Indiaas-Amerikaanse journalist.",
+      "coverUrl": null,
+      "color": "#9FE1CB",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780515147018",
+      "title": "The Gray Man",
+      "author": "Mark Greaney",
+      "authors": [
+        "Mark Greaney"
+      ],
+      "genre": [
+        "Fiction"
+      ],
+      "language": "en",
+      "pageCount": 465,
+      "publisher": "Penguin",
+      "publishedDate": "2009-09-29",
+      "description": "THE FIRST GRAY MAN NOVEL FROM #1 NEW YORK TIMES BESTSELLING AUTHOR MARK GREANEY—Now a Netflix Film Starring Ryan Gosling and Chris Evans “Hard, fast, and unflinching—exactly what a thriller should be.”—Lee Child To those who lurk in the shadows, he’s known as the Gray Man. He is a legend in the covert realm, moving silently from job to job, accomplishing the impossible and then fading away. And he always hits his target. Always. But there are forces more lethal than Gentry in the world. Forces like money. And power. And there are men who hold these as the only currency worth fighting for. And in their eyes, Gentry has just outlived his usefulness. But Court Gentry is going to prove that, for him, there’s no gray area between killing for a living and killing to stay alive....",
+      "coverUrl": "https://books.google.com/books/content?id=6qc_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#85B7EB",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9781509899203",
+      "title": "Black 13",
+      "author": "Adam Hamdy",
+      "authors": [
+        "Adam Hamdy"
+      ],
+      "genre": [
+        "Fiction"
+      ],
+      "language": "en",
+      "pageCount": 496,
+      "publisher": "Pan",
+      "publishedDate": "2021-01-07",
+      "description": "The world is changing beyond recognition. Radical extremists are rising and seek to enforce their ideology globally. Governments, the military and intelligence agencies are being outmanoeuvred at every step. Borders are breaking down. Those in power are puppets. The old rules are obsolete. To fight this war a new doctrine is needed. In a world where nothing is at it seems, where trust is gone, one man will make the difference. Meet Ex-MI6 agent and man in exile, Scott Pearce. It's time to burn the espionage rule book. Watch Pearce light the fire.",
+      "coverUrl": "https://books.google.com/books/content?id=WgzmywEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#F4C0D1",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9781444729412",
+      "title": "Cosa Nostra Ssb",
+      "author": "John Dickie",
+      "authors": [
+        "John Dickie"
+      ],
+      "genre": [],
+      "language": "en",
+      "pageCount": null,
+      "publisher": "",
+      "publishedDate": "2007-03-08",
+      "description": "",
+      "coverUrl": null,
+      "color": "#FAC775",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9781409153801",
+      "title": "The Boss of Bosses",
+      "author": "Attilio Bolzoni, Giuseppe D'Avanzo",
+      "authors": [
+        "Attilio Bolzoni",
+        "Giuseppe D'Avanzo"
+      ],
+      "genre": [
+        "Mafia"
+      ],
+      "language": "en",
+      "pageCount": 0,
+      "publisher": "Orion",
+      "publishedDate": "2016-09-08",
+      "description": "The basis of the Sky TV show CORLEONE, this is the life of the real godfather - the infamous Salvatore 'Toto' Riina, dreaded head of the Sicilian mafia.",
+      "coverUrl": "https://books.google.com/books/content?id=ebiengEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#CECBF6",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9781784161897",
+      "title": "Blackout",
+      "author": "Marcus Rafelsberger, Marc Elsberg",
+      "authors": [
+        "Marcus Rafelsberger",
+        "Marc Elsberg"
+      ],
+      "genre": [
+        "Fiction"
+      ],
+      "language": "en",
+      "pageCount": 450,
+      "publisher": "Random House",
+      "publishedDate": "2017-01-30",
+      "description": "'A dazzling debut' Marcel Berlins, The Times THE TIMES THRILLER OF THE MONTH THE GLOBAL MILLION-COPY BESTSELLER PUBLISHED IN 15 LANGUAGES WORLDWIDE A 21ST-CENTURY HIGH-CONCEPT DISASTER THRILLER 'Fast, tense, thrilling - and timely: this will happen one day. Highly recommended' LEE CHILD *************************************** Tomorrow will be too late. A cold night in Milan, Piero Manzano wants to get home. Then the traffic lights fail. Manzano is thrown from his Alfa as cars pile up. And not just on this street - every light in the city is dead. Across Europe, controllers watch in disbelief as electricity grids collapse. Plunged into darkness, people are freezing. Food and water supplies dry up. The death toll soars. Former hacker and activist Manzano becomes a prime suspect. But he is also the only man capable of finding the real attackers. Can he bring down a major terrorist network before it's too late?",
+      "coverUrl": "https://books.google.com/books/content?id=gDHaDQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#9FE1CB",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9781800246614",
+      "title": "Untraceable",
+      "author": "Sergei Lebedev",
+      "authors": [
+        "Sergei Lebedev"
+      ],
+      "genre": [],
+      "language": "en",
+      "pageCount": 256,
+      "publisher": "Apollo",
+      "publishedDate": "2021-09-02",
+      "description": "A Russian novel about poisons of all kinds - physical, moral, political - all rooted in the recent history of Russia's state assassinations and Putin's continuation of the most degraded traditions of his country's history.",
+      "coverUrl": "https://books.google.com/books/content?id=8CAGzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#B5D4F4",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780241988268",
+      "title": "The Thursday Murder Club",
+      "author": "Richard Osman",
+      "authors": [
+        "Richard Osman"
+      ],
+      "genre": [
+        "Fiction"
+      ],
+      "language": "en",
+      "pageCount": 0,
+      "publisher": "Penguin Books Limited",
+      "publishedDate": "2021",
+      "description": "Krimi. In a peaceful retirement village, four unlikely friends meet up once a week to investigate unsolved killings. But when a local property developer shows up dead, 'The Thursday Murder Club' find themselves in the middle of their first live case. The four friends, Elizabeth, Joyce, Ibrahim and Ron, might be octogenarians, but they still have a few tricks up their sleeves. Can our unorthodox but brilliant gang catch the killer, before it's too late?",
+      "coverUrl": "https://books.google.com/books/content?id=hufGzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#85B7EB",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9781447297581",
+      "title": "Dark Matter",
+      "author": "Blake Crouch",
+      "authors": [
+        "Blake Crouch"
+      ],
+      "genre": [
+        "Fiction"
+      ],
+      "language": "en",
+      "pageCount": 416,
+      "publisher": "Pan Books",
+      "publishedDate": "2017-08-24",
+      "description": "'Brilliant. . . I think Blake Crouch just invented something new.' - Lee ChildFrom Blake Crouch, the author of the bestselling Wayward Pines trilogy, Dark Matter is a New York Times bestselling, relentlessly twisting thriller about how far we'll go to claim the lives we dream of.'Are you happy in your life?'Those are the last words Jason Dessen hears before the masked abductor knocks him unconscious. Before he awakes to find himself strapped to a gurney, surrounded by strangers in hazmat suits. Before the man he's never met smiles down at him and says, 'Welcome back.'In this world he's woken up to, Jason's life is not the one he knows. His wife is not his wife. His son was never born. And Jason is not an ordinary college physics professor, but a celebrated genius who has achieved something remarkable. Something impossible.Is it this world or the other that's the dream? And even if the home he remembers is real, how can Jason possibly make it back to the family he loves? The answers lie in a journey more wondrous and horrifying than anything he could've imagined - one that will force him to confront the darkest parts of himself even as he battles a terrifying, seemingly unbeatable foe.From the author of the bestselling 'Wayward Pines' trilogy, Dark Matter is a brilliantly plotted tale that is at once sweeping and intimate, mind-bendingly strange and profoundly human - a relentlessly surprising thriller about choices, paths not taken, and how far we'll go to claim the lives we dream of.",
+      "coverUrl": "https://books.google.com/books/content?id=xe9SvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#F5C4B3",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789000363698",
+      "title": "Fokking druk",
+      "author": "Thijs Launspach",
+      "authors": [
+        "Thijs Launspach"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": null,
+      "publisher": "",
+      "publishedDate": "2018",
+      "description": "Zelfhulpgids met adviezen en theoretische achtergrond om werkdruk en de daarbij behorende stress te verminderen.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789000363698-L.jpg",
+      "color": "#CECBF6",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789089752925",
+      "title": "Komt een vrouw bij de hacker / druk 2",
+      "author": "Maria Genova",
+      "authors": [
+        "Maria Genova"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": 224,
+      "publisher": "",
+      "publishedDate": "2014-12-10",
+      "description": "Journalistieke reportage over identiteitsfraude op internet en sociale media, met adviezen om dit zoveel mogelijk te voorkomen.",
+      "coverUrl": null,
+      "color": "#F4C0D1",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789048851812",
+      "title": "Tanja Nijmeijer",
+      "author": "Tanja Nijmeijer",
+      "authors": [
+        "Tanja Nijmeijer"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": 320,
+      "publisher": "",
+      "publishedDate": "2021",
+      "description": "Autobiografie van de Nederlandse vrouw (1978) die zich aansloot bij de Colombiaanse guerrillabewerging FARC.",
+      "coverUrl": null,
+      "color": "#85B7EB",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789403174204",
+      "title": "Hardgin",
+      "author": "J.A. Deelder",
+      "authors": [
+        "J.A. Deelder"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": 256,
+      "publisher": "",
+      "publishedDate": "2019",
+      "description": "Jules Deelder schreef zijn vroegste verhalen meer dan een halve eeuw geleden en net als de meester zelf zijn ze onverminderd swingend, modern en veelzijdig. Eerder verschenen al bloemlezingen waarin de muziek en de lach leidend waren. Nu is daar 'Hardgin', een woordvondst van Deelder zelf, dat tegelijk de titel is van het openingsverhaal, dat hij speciaal voor deze bloemlezing schreef.0'Hardgin' vangt het duistere deel van het schrijverschap, dat begint bij de beklemmend lege zondagse straten van Deelders vroege jeugd. Steeds ook voert hij de lezer terug naar de Tweede Wereldoorlog, maar met evenveel lichtvoetigheid naar het mekka van de popcultuur en van de drank en drugs. \"Die nacht was het gitaarwonder bij mij te gast. Eerst rookten we op een tot zelfmoord nodende tweepersoonskamer met verlaagd plafond in Hotel Centraal nog een paar stevige joints, waarop het plafond een stuk lager kwam te hangen.\"0'Hardgin' brengt de lezer dicht bij de kern van het schrijverschap van J.A. Deelder.",
+      "coverUrl": null,
+      "color": "#CECBF6",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789402709001",
+      "title": "De Monarch / druk 1",
+      "author": "Jack Soren",
+      "authors": [
+        "Jack Soren"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": 448,
+      "publisher": "",
+      "publishedDate": "2016-04-12",
+      "description": "",
+      "coverUrl": null,
+      "color": "#85B7EB",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789400509054",
+      "title": "De Krijtman",
+      "author": "C. J. Tudor",
+      "authors": [
+        "C. J. Tudor"
+      ],
+      "genre": [
+        "Fiction"
+      ],
+      "language": "nl",
+      "pageCount": 320,
+      "publisher": "",
+      "publishedDate": "2018-01-23",
+      "description": "Na dertig jaar is een groepje vrienden nog steeds bezig met de onopgeloste moord op een meisje.",
+      "coverUrl": null,
+      "color": "#85B7EB",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9781544512273",
+      "title": "Can't Hurt Me",
+      "author": "David Goggins",
+      "authors": [
+        "David Goggins"
+      ],
+      "genre": [
+        "Athletes"
+      ],
+      "language": "en",
+      "pageCount": 364,
+      "publisher": "",
+      "publishedDate": "2018",
+      "description": "For David Goggins, childhood was a nightmare -- poverty, prejudice, and physical abuse colored his days and haunted his nights. But through self-discipline, mental toughness, and hard work, Goggins transformed himself from a depressed, overweight young man with no future into a U.S. Armed Forces icon and one of the world's top endurance athletes. The only man in history to complete elite training as a Navy SEAL, Army Ranger, and Air Force Tactical Air Controller, he went on to set records in numerous endurance events, inspiring Outside magazine to name him \"The Fittest (Real) Man in America.\" In Can't Hurt Me, he shares his astonishing life story and reveals that most of us tap into only 40% of our capabilities. Goggins calls this The 40% Rule, and his story illuminates a path that anyone can follow to push past pain, demolish fear, and reach their full potential.",
+      "coverUrl": "https://books.google.com/books/content?id=ng84vQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#B5D4F4",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789402730708",
+      "title": "Het huis der spionnen",
+      "author": "Daniel Silva",
+      "authors": [
+        "Daniel Silva"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": null,
+      "publisher": "",
+      "publishedDate": "2018",
+      "description": "Een reeks terroristische aanslagen in Europa dwingt het hoofd van de Israëlische geheim dienst om in actie te komen.",
+      "coverUrl": null,
+      "color": "#F5C4B3",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789026146626",
+      "title": "Ultiem bewijs",
+      "author": "Peter James",
+      "authors": [
+        "Peter James"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": null,
+      "publisher": "",
+      "publishedDate": "2019",
+      "description": "Een journalist jaagt op archeologisch materiaal waarmee het bestaan van God bewezen kan worden, maar er zijn levensgevaarlijke kapers op de kust.",
+      "coverUrl": null,
+      "color": "#9FE1CB",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780008503970",
+      "title": "The Fall of Gondolin",
+      "author": "J. R. R. Tolkien",
+      "authors": [
+        "J. R. R. Tolkien"
+      ],
+      "genre": [
+        "Fiction"
+      ],
+      "language": "en",
+      "pageCount": 0,
+      "publisher": "HarperCollins",
+      "publishedDate": "2022-05-12",
+      "description": "Painstakingly restored from Tolkien's manuscripts and presented for the first time as a standalone work, the epic tale of The Fall of Gondolin will reunite fans of The Hobbit and The Lord of the Rings with Elves and Men, Balrogs, Dragons and Orcs and the rich landscape and creatures unique to Tolkien's Middle-earth.",
+      "coverUrl": "https://books.google.com/books/content?id=0FSFzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#C0DD97",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780261102736",
+      "title": "The Silmarillion",
+      "author": "J.R.R. Tolkien",
+      "authors": [
+        "J.R.R. Tolkien"
+      ],
+      "genre": [
+        "Fantasy fiction",
+        "Short stories",
+        "Middle Earth (Imaginary place)"
+      ],
+      "language": "por",
+      "pageCount": 428,
+      "publisher": "Pocket",
+      "publishedDate": "1977",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14627042-L.jpg",
+      "color": "#FAC775",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780261103627",
+      "title": "Unfinished Tales of Númenor and Middle-earth",
+      "author": "John Ronald Reuel Tolkien",
+      "authors": [
+        "John Ronald Reuel Tolkien"
+      ],
+      "genre": [
+        "English fiction"
+      ],
+      "language": "en",
+      "pageCount": 0,
+      "publisher": "",
+      "publishedDate": "1998",
+      "description": "Of Tuor and his coming to Gondolin -- Narn i hin Hurin -- A description of the island of Numenor --Aldarion and Erendis -- The line of Elros : Kings of Numenor -- The history of Galadriel and Celeborn --The disaster of the Gladden Fields -- Cirion and Eorl and the friendship of Gondor and Rohan -- The quest of Erebor -- The hunt for the Ring -- The battles of the Fords of Isen -- The Drúedain -- The Istari -- The Palantiri.",
+      "coverUrl": "https://books.google.com/books/content?id=OAmcQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#F4C0D1",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780008207779",
+      "title": "J.R.R. Tolkien",
+      "author": "Humphrey Carpenter",
+      "authors": [
+        "Humphrey Carpenter"
+      ],
+      "genre": [
+        "Authors, English"
+      ],
+      "language": "en",
+      "pageCount": 0,
+      "publisher": "",
+      "publishedDate": "2016-10-20",
+      "description": "The original authorised biography, and the only one written by an author who actually met J.R.R. Tolkien, reissued to mark Tolkien's 125th Anniversary. In more than 40 years since Tolkien's death in September 1973, millions have read The Hobbit, The Lord of the Rings and The Silmarillion and become fascinated about the very private man behind the books. Born in Bloemfontein in January 1892, John Ronald Reuel Tolkien was orphaned in childhood, brought up in near-poverty and almost thwarted in adolescent romance. He served in the First World War, surviving the Battle of the Somme, where he lost some of his closest friends, and returned to academic life, achieving high repute as a scholar and university teacher, eventually becoming Merton Professor of English at Oxford. Then suddenly his life changed dramatically. One day while marking essay papers he found himself writing 'In a hole in the ground there lived a hobbit' - and worldwide renown awaited him. Humphrey Carpenter was given unrestricted access to all Tolkien's papers, and interviewed his friends and family. From these sources he follows the long and painful process of creation that produced The Hobbit, The Lord of the Rings and The Silmarillion and offers a wealth of information about the life and work of the twentieth century's most cherished author.",
+      "coverUrl": "https://books.google.com/books/content?id=Qse-jwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#FAC775",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780261103252",
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "authors": [
+        "J.R.R. Tolkien"
+      ],
+      "genre": [
+        "The Lord of the Rings",
+        "Fiction",
+        "Ficción"
+      ],
+      "language": "cat",
+      "pageCount": 1193,
+      "publisher": "Book Club Association",
+      "publishedDate": "1954",
+      "description": "",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14625765-L.jpg",
+      "color": "#9FE1CB",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780007317240",
+      "title": "The Legend of Sigurd and Gudrún",
+      "author": "John Ronald Reuel Tolkien",
+      "authors": [
+        "John Ronald Reuel Tolkien"
+      ],
+      "genre": [
+        "Fiction"
+      ],
+      "language": "en",
+      "pageCount": 388,
+      "publisher": "HarperCollins UK",
+      "publishedDate": "2010",
+      "description": "World-first publication of a previously unknown work by J.R.R. Tolkien. It tells the story of the Norse hero, Sigurd, the dragon-slayer and the revenge of his wife, Gudrun, upon those who betrayed him.",
+      "coverUrl": "https://books.google.com/books/content?id=lGRA8gD560UC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#C0DD97",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780261102262",
+      "title": "The Lays of Beleriand",
+      "author": "John Ronald Reuel Tolkien, Christopher Tolkien",
+      "authors": [
+        "John Ronald Reuel Tolkien",
+        "Christopher Tolkien"
+      ],
+      "genre": [
+        "Poetry"
+      ],
+      "language": "en",
+      "pageCount": 393,
+      "publisher": "Harpercollins Pub Limited",
+      "publishedDate": "2002",
+      "description": "The third volume that contains the early myths and legends which led to the writing of Tolkien's epic tale of war, The Silmarillion. This, the third volume of The History of Middle-earth, gives us a priviledged insight into the creation of the mythology of Middle-earth, through the alliterative verse tales of two of the most crucial stories in Tolkien's world -- those of Turien and Luthien. The first of the poems is the unpublished Lay of The Children of Hurin, narrating on a grand scale the tragedy of Turin Turambar. The second is the moving Lay of Leithian, the chief source of the tale of Beren and Luthien in The Silmarillion, telling of the Quest of the Silmaril and the encounter with Morgoth in his subterranean fortress. Accompanying the poems are commentaries on the evolution of the history of the Elder Days. Also included is the notable criticism of The Lay of The Leithian by CS Lewis, who read the poem in 1929.",
+      "coverUrl": "https://books.google.com/books/content?id=jGG3QgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#85B7EB",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780261103009",
+      "title": "Morgoth's Ring",
+      "author": "J. R. R. Tolkien",
+      "authors": [
+        "J. R. R. Tolkien"
+      ],
+      "genre": [
+        "Fiction"
+      ],
+      "language": "en",
+      "pageCount": 0,
+      "publisher": "HarperCollins Publishers",
+      "publishedDate": "2002",
+      "description": "This is the first of two volumes which documents later writing of The Silmarillion, Tolkien's epic tale of war. Christopher Tolkien documents the history of The Silmarillion, from the time when his father turned again to 'the Matter of the Elder Days'.",
+      "coverUrl": "https://books.google.com/books/content?id=1tI0RAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#9FE1CB",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780007557301",
+      "title": "The Fall of Arthur",
+      "author": "J. R. R. Tolkien",
+      "authors": [
+        "J. R. R. Tolkien"
+      ],
+      "genre": [
+        "Fiction"
+      ],
+      "language": "en",
+      "pageCount": 0,
+      "publisher": "HarperCollins",
+      "publishedDate": "2015",
+      "description": "The world first publication of a previously unknown work by J.R.R. Tolkien, which tells the extraordinary story of the final days of England's legendary hero, King Arthur. The Fall of Arthur, the only venture by J.R.R. Tolkien into the legends of Arthur King of Britain, may well be regarded as his finest and most skilful achievement in the use of the Old English alliterative metre, in which he brought to his transforming perceptions of the old narratives a pervasive sense of the grave and fateful nature of all that is told: of Arthur's expedition overseas into distant heathen lands, of Guinevere's flight from Camelot, of the great sea-battle on Arthur's return to Britain, in the portrait of the traitor Mordred, in the tormented doubts of Lancelot in his French castle. Unhappily, The Fall of Arthur was one of several long narrative poems that he abandoned in that period. In this case he evidently began it in the earlier nineteen-thirties, and it was sufficiently advanced for him to send it to a very perceptive friend who read it with great enthusiasm at the end of 1934 and urgently pressed him 'You simply must finish it!' But in vain: he abandoned it, at some date unknown, though there is some evidence that it may have been in 1937, the year of the publication of The Hobbit and the first stirrings of The Lord of the Rings. Years later, in a letter of 1955, he said that 'he hoped to finish a long poem on The Fall of Arthur'; but that day never came. Associated with the text of the poem, however, are many manuscript pages: a great quantity of drafting and experimentation in verse, in which the strange evolution of the poem's structure is revealed, together with narrative synopses and very significant if tantalising notes. In these latter can be discerned clear if mysterious associations of the Arthurian conclusion with The Silmarillion, and the bitter ending of the love of Lancelot and Guinevere, which was never written.",
+      "coverUrl": "https://books.google.com/books/content?id=comgoAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#F5C4B3",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9781328915337",
+      "title": "Beren and Lúthien",
+      "author": "J. R. R. Tolkien",
+      "authors": [
+        "J. R. R. Tolkien"
+      ],
+      "genre": [
+        "Fiction"
+      ],
+      "language": "en",
+      "pageCount": 0,
+      "publisher": "William Morrow Paperbacks",
+      "publishedDate": "2018-03-06",
+      "description": "New York Times Bestseller \"A good introduction to LOTR fans nervous about taking on The Silmarillion, and also gives longtime fans a fascinating look at the Tolkiens' myth-making process.\"--EntertainmentWeekly.com \"A beautiful book.\"--San Antonio Express-News \"With eloquence and diligence and care, the son reconstructs and retraces the father's journey, pursuing the tale through draft after draft as Tolkien pursued his vision of Middle-earth.\"--NPR.org The epic tale of Beren and L thien became an essential element in the evolution of The Silmarillion, the myths and legends of J.R.R. Tolkien's First Age of the World. Always key to the story is the fate that shadowed their love: Beren was a mortal man, L thien an immortal Elf. Her father, a great Elvish lord, imposed on Beren an impossible task before he might wed L thien: to rob the greatest of all evil beings, Melkor, of a Silmaril. Painstakingly restored from Tolkien's manuscripts and presented for the first time as a continuous and standalone story, Beren and L thien reunites fans of The Hobbit and The Lord of the Rings with Elves and Men, along with the rich landscape and creatures unique to Tolkien's Middle-earth. Christopher Tolkien tells the story in his father's own words by giving its original form as well as prose and verse passages from later texts that illustrate the narrative as it changed.",
+      "coverUrl": "https://books.google.com/books/content?id=-93KswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#F4C0D1",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9027475792",
+      "title": "De hobbit",
+      "author": "John Ronald Reuel Tolkien, Max Schuchart",
+      "authors": [
+        "John Ronald Reuel Tolkien",
+        "Max Schuchart"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": 252,
+      "publisher": "",
+      "publishedDate": "2001",
+      "description": "Een dwerg wordt door een tovenaar uitgezonden om een groep dwergen te leiden bij hun speurtocht naar de draak die de schatten van het dwergenvolk heeft geroofd.",
+      "coverUrl": null,
+      "color": "#FAC775",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789022535233",
+      "title": "Nagelaten vertellingen",
+      "author": "John Ronald Reuel Tolkien, Max Schuchart",
+      "authors": [
+        "John Ronald Reuel Tolkien",
+        "Max Schuchart"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": 587,
+      "publisher": "",
+      "publishedDate": "2002",
+      "description": "Onvoltooide en nagelaten verhalen, schetsen en aantekeningen van de Britse fantasy-auteur (1892-1973), waarin hij dieper ingaat op de wereld van onder meer 'In de ban van de ring'.",
+      "coverUrl": null,
+      "color": "#CECBF6",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789022547649",
+      "title": "De kinderen van Hurin / druk 1",
+      "author": "John Ronald Reuel Tolkien",
+      "authors": [
+        "John Ronald Reuel Tolkien"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": 317,
+      "publisher": "",
+      "publishedDate": "2007-05",
+      "description": "Túrin Turambar, een ridder die huis en haard moest ontvluchten en door een Elfenkoning werd geadopteerd, gaat als verdoemde held met een magisch zwaard zijn noodlot tegemoet.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789022547649-L.jpg",
+      "color": "#85B7EB",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9022532046",
+      "title": "In de ban van de ring /J.R.R. Tolkien",
+      "author": "John Ronald Reuel Tolkien, Max Schuchart",
+      "authors": [
+        "John Ronald Reuel Tolkien",
+        "Max Schuchart"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": 1401,
+      "publisher": "",
+      "publishedDate": "2002",
+      "description": "De langdurige avontuurlijke expeditie van de Hobbits van Gouw, in de klassieke trilogie van de Engelse taalkundige (1892-1973).",
+      "coverUrl": null,
+      "color": "#F4C0D1",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789022543467",
+      "title": "The lord of the rings schetsboek",
+      "author": "Alan Lee, Chris Smith, Martijn Jansen Adelmund",
+      "authors": [
+        "Alan Lee",
+        "Chris Smith",
+        "Martijn Jansen Adelmund"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": 192,
+      "publisher": "",
+      "publishedDate": "2005",
+      "description": "Ontwerpschetsen ter voorbereiding voor de filmtrilogie 'The Lord of the Rings'.",
+      "coverUrl": null,
+      "color": "#CECBF6",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780008105754",
+      "title": "The Art of the Lord of the Rings by J.R.R. Tolkien",
+      "author": "John Ronald Reuel Tolkien",
+      "authors": [
+        "John Ronald Reuel Tolkien"
+      ],
+      "genre": [
+        "Fiction"
+      ],
+      "language": "en",
+      "pageCount": 0,
+      "publisher": "Harper",
+      "publishedDate": "2015",
+      "description": "As he wrote The Lord of the Rings, J.R.R. Tolkien's mental pictures often found expression in drawing, from rough sketches made within the manuscript to more finished illustrations. Only a few of these were meant for publication; most were aids to help Tolkien conceive his complex story and keep it consistent. Many do not illustrate the final text, but represent moments of creation, illuminating Tolkien's process of writing and design. In addition to pictorial sketches, numerous maps follow the development of the Shire and the larger landscape of Middle-earth, while inscriptions in runes and Elvish script, and 'facsimile' leaves from the burned and blood-stained Book of Mazarbul, support Tolkien's pose as an 'editor' or 'translator' of ancient records.The Art of The Lord of the Rings by J.R.R. Tolkien collects these drawings, inscriptions, maps, and plans in one deluxe volume. More than 180 images are included, all of them printed in colour from high-quality scans and photographs, more than half not previously published. Wayne G. Hammond and Christina Scull, two of the world's leading Tolkien scholars, have edited the book and provide an expert introduction and comments.",
+      "coverUrl": "https://books.google.com/books/content?id=-_RRrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#B5D4F4",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
       "isbn": "9780345350688",
       "title": "The Autobiography of Malcolm X",
       "author": "Malcolm X",
@@ -6014,7 +8210,7 @@
       "dateAdded": "2026-04-25",
       "dateRead": null
     },
-{
+    {
       "isbn": "9789403129921",
       "title": "Spiegelman",
       "author": "Lars Kepler",
@@ -6077,6 +8273,479 @@
       "rating": 0,
       "dateAdded": "2026-04-25",
       "dateRead": null
+    },
+    {
+      "isbn": "9780451184962",
+      "title": "Insomnia",
+      "author": "Stephen King",
+      "authors": [
+        "Stephen King"
+      ],
+      "genre": [
+        "Fiction"
+      ],
+      "language": "en",
+      "pageCount": 787,
+      "publisher": "Signet",
+      "publishedDate": "1995",
+      "description": "Ralph Roberts is a retired widower plagued by increasingly severe insomnia. As his sleeplessness deepens, he begins to perceive strange auras around people and encounters entities invisible to those who sleep normally. These visions draw him into a conflict between cosmic forces connected to the Dark Tower.",
+      "coverUrl": "https://books.google.com/books/content?id=fiYwnQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#FAC775",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789028423848",
+      "title": "De sage van de waanzin 2: De zwaardcodex",
+      "author": "Jyoti Guptara, Suresh Guptara",
+      "authors": [
+        "Jyoti Guptara",
+        "Suresh Guptara"
+      ],
+      "genre": [
+        "Fiction",
+        "Fantasy"
+      ],
+      "language": "nl",
+      "pageCount": null,
+      "publisher": "Wereldbibliotheek",
+      "publishedDate": "2009",
+      "description": "Het tweede deel in De Sage van de Waanzin, de fantasieserie van broers Jyoti en Suresh Guptara, een vervolg op De samenzwering van Calaspia.",
+      "coverUrl": null,
+      "color": "#9FE1CB",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789083339702",
+      "title": "Fuck it, ik doe 't gewoon",
+      "author": "Renout Polder",
+      "authors": [
+        "Renout Polder"
+      ],
+      "genre": [
+        "Self-Help"
+      ],
+      "language": "nl",
+      "pageCount": 176,
+      "publisher": "The Leadership Community",
+      "publishedDate": "2023-07-01",
+      "description": "Businesscoach Renout Polder biedt in 52 wekelijkse tools de inzichten en technieken om leiderschapsvaardigheid op te bouwen en je doelen te bereiken, of je nu een CEO bent of een ouder van vijf kinderen.",
+      "coverUrl": null,
+      "color": "#85B7EB",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789044530988",
+      "title": "Het testament van Nostradamus",
+      "author": "Tom Egeland",
+      "authors": [
+        "Tom Egeland"
+      ],
+      "genre": [
+        "Fiction"
+      ],
+      "language": "nl",
+      "pageCount": 547,
+      "publisher": "De Geus",
+      "publishedDate": "2015-02-26",
+      "description": "Archeoloog Bjørn Beltø raakt betrokken bij een race tegen de klok nadat een Italiaanse professor in middeleeuwse codes is ontvoerd. In zijn zoektocht wordt hij achtervolgd door een meedogenloze kloosterorde, een Amerikaanse inlichtingendienst en een vijfhonderd jaar oud broederschap van bibliothecarissen, die allemaal een gecodeerde brief van Nostradamus aan de Medici zoeken.",
+      "coverUrl": null,
+      "color": "#CECBF6",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789464055740",
+      "title": "You were smiling",
+      "author": "Kirsten Withagen",
+      "authors": [
+        "Kirsten Withagen"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": null,
+      "publisher": "",
+      "publishedDate": "2021",
+      "description": "",
+      "coverUrl": null,
+      "color": "#F4C0D1",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789000326884",
+      "title": "De essentie van het boeddhisme",
+      "author": "Thubten Chodron",
+      "authors": [
+        "Thubten Chodron"
+      ],
+      "genre": [
+        "Body, Mind & Spirit"
+      ],
+      "language": "nl",
+      "pageCount": null,
+      "publisher": "Het Spectrum",
+      "publishedDate": "2013",
+      "description": "Een praktische gids die 170 veelgestelde vragen over de basisprincipes van het boeddhisme beantwoordt, verdeeld over 21 hoofdstukken. De Amerikaanse boeddhistische non Thubten Chodron behandelt de kern van het boeddhisme en de betekenis ervan voor het dagelijks leven, met een voorwoord van de Dalai Lama.",
+      "coverUrl": null,
+      "color": "#C0DD97",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789400516168",
+      "title": "Het appelmeisje",
+      "author": "Tina N. Martin",
+      "authors": [
+        "Tina N. Martin"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": null,
+      "publisher": "A.W. Bruna Uitgevers",
+      "publishedDate": "",
+      "description": "Het eerste deel in de Idun Lind-thrillerreeks van de Zweedse schrijfster Tina N. Martin. De thriller bereikte de nummer 1-positie op de Zweedse bestsellerlijst.",
+      "coverUrl": null,
+      "color": "#F5C4B3",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9781409168768",
+      "title": "Ragdoll",
+      "author": "Daniel Cole",
+      "authors": [
+        "Daniel Cole"
+      ],
+      "genre": [
+        "Fiction"
+      ],
+      "language": "en",
+      "pageCount": 400,
+      "publisher": "Trapeze",
+      "publishedDate": "2017",
+      "description": "A body is discovered in a London flat, stitched together from the body parts of six different murder victims. Detective William Fawkes, recently reinstated after a controversial shooting, is put on the case alongside his partner Emily Baxter. But when the press dub the killer 'the Ragdoll' and Fawkes himself is named as the next victim, the lines between hunter and hunted become dangerously blurred.",
+      "coverUrl": "https://books.google.com/books/content?id=JYWUDAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "color": "#CECBF6",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780440224679",
+      "title": "Hannibal",
+      "author": "Thomas Harris",
+      "authors": [
+        "Thomas Harris"
+      ],
+      "genre": [
+        "Fiction"
+      ],
+      "language": "en",
+      "pageCount": 486,
+      "publisher": "Dell",
+      "publishedDate": "2000",
+      "description": "Seven years after the events of The Silence of the Lambs, Hannibal Lecter has surfaced in Florence, Italy, working as a museum curator. His nemesis Clarice Starling faces a crisis in her FBI career while a vengeful billionaire survivor of one of Lecter's early attacks sets an elaborate trap to recapture him.",
+      "coverUrl": null,
+      "color": "#F5C4B3",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780451216724",
+      "title": "Code to Zero",
+      "author": "Ken Follett",
+      "authors": [
+        "Ken Follett"
+      ],
+      "genre": [
+        "Fiction"
+      ],
+      "language": "en",
+      "pageCount": 384,
+      "publisher": "Signet",
+      "publishedDate": "2001",
+      "description": "Washington D.C., 1958. A man wakes up in Union Station with no memory of who he is. As fragments of his identity slowly return, he realizes he is a scientist at the center of America's first satellite launch — and that someone powerful wants to ensure he never recovers his past.",
+      "coverUrl": null,
+      "color": "#85B7EB",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789400518384",
+      "title": "De klauwen van de lynx",
+      "author": "Karin Smirnoff",
+      "authors": [
+        "Karin Smirnoff"
+      ],
+      "genre": [
+        "Fiction"
+      ],
+      "language": "nl",
+      "pageCount": 352,
+      "publisher": "A.W. Bruna Uitgevers",
+      "publishedDate": "2025-05-13",
+      "description": "Het achtste deel in de Millenniumserie, het officiële vervolg op de misdaadreeks die begon met Stieg Larssons Mannen die vrouwen haten. Originele Zweedse titel: Lokattens klor.",
+      "coverUrl": null,
+      "color": "#9FE1CB",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789049202217",
+      "title": "Stromend graf",
+      "author": "Robert Galbraith",
+      "authors": [
+        "Robert Galbraith"
+      ],
+      "genre": [
+        "Fiction"
+      ],
+      "language": "nl",
+      "pageCount": 1120,
+      "publisher": "Boekerij",
+      "publishedDate": "2023-11-28",
+      "description": "Het zevende deel in de Cormoran Strike-serie. Privédetective Cormoran Strike wordt benaderd door een bezorgde vader wiens zoon Will is toegetreden tot een religieuze sekte op het Engelse platteland. Terwijl Strike undercover gaat, onderzoekt Robin Ellacott de zaak van buitenaf.",
+      "coverUrl": null,
+      "color": "#FAC775",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780316067928",
+      "title": "Breaking Dawn",
+      "author": "Stephenie Meyer",
+      "authors": [
+        "Stephenie Meyer"
+      ],
+      "genre": [
+        "Fiction",
+        "Young Adult Fiction"
+      ],
+      "language": "en",
+      "pageCount": 768,
+      "publisher": "Little, Brown and Company",
+      "publishedDate": "2008-08-02",
+      "description": "The fourth and final novel in the Twilight saga. As Bella Swan and Edward Cullen begin their new life together, a chain of unforeseen events threatens to bring the vampire and werewolf worlds to the brink of an all-out war.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780316067928-L.jpg",
+      "color": "#F4C0D1",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789403129983",
+      "title": "Lazarus",
+      "author": "Lars Kepler",
+      "authors": [
+        "Lars Kepler"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": null,
+      "publisher": "Uitgeverij Cargo",
+      "publishedDate": "2021",
+      "description": "Het zevende deel in de Joona Linna-thrillerreeks. Wanneer een veroordeelde seriemoordenaar wordt vrijgelaten, beginnen er opnieuw gruwelijke moorden die lijken op een zaak uit het verleden.",
+      "coverUrl": null,
+      "color": "#CECBF6",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789402708011",
+      "title": "Valse getuige",
+      "author": "Karin Slaughter",
+      "authors": [
+        "Karin Slaughter"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": 454,
+      "publisher": "HarperCollins Holland",
+      "publishedDate": "2021",
+      "description": "Twee zussen worden geconfronteerd met een donker geheim uit hun verleden wanneer een van hen als advocaat de zoon moet verdedigen van een pedofiel die ze als tieners hebben vermoord, en hij laat weten dat hij weet van de dood van zijn vader.",
+      "coverUrl": null,
+      "color": "#F5C4B3",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789402706796",
+      "title": "Stille zonde",
+      "author": "Karin Slaughter",
+      "authors": [
+        "Karin Slaughter"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": null,
+      "publisher": "HarperCollins Holland",
+      "publishedDate": "2020",
+      "description": "Will Trent krijgt een gevaarlijke undercoveropdracht terwijl zijn vriendin Sara Linton een cold case onderzoekt. De twee zaken blijken onverwacht met elkaar verbonden.",
+      "coverUrl": null,
+      "color": "#85B7EB",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789044647686",
+      "title": "Eén raam, geen sleutel",
+      "author": "Jussi Adler-Olsen",
+      "authors": [
+        "Jussi Adler-Olsen"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": 496,
+      "publisher": "Prometheus",
+      "publishedDate": "2024-03-05",
+      "description": "Het tiende en laatste deel in Serie Q van de Deense misdaadauteur Jussi Adler-Olsen, vertaald door Kor de Vries.",
+      "coverUrl": null,
+      "color": "#B5D4F4",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789022590256",
+      "title": "Als het bloedt",
+      "author": "Stephen King",
+      "authors": [
+        "Stephen King"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": 416,
+      "publisher": "Boekerij",
+      "publishedDate": "2020-05-15",
+      "description": "Een verhalenbundel met vier novellas: het titelstuk 'Als het bloedt' met terugkerend personage Holly Gibney, 'De telefoon van meneer Harrigan', 'Het leven van Chuck' en 'Rat'.",
+      "coverUrl": null,
+      "color": "#FAC775",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789048825028",
+      "title": "Judas",
+      "author": "Astrid Holleeder",
+      "authors": [
+        "Astrid Holleeder"
+      ],
+      "genre": [],
+      "language": "nl",
+      "pageCount": 571,
+      "publisher": "Lebowski",
+      "publishedDate": "2016",
+      "description": "Een familiekroniek waarin Astrid Holleeder een schrijnend portret schetst van haar familie vanaf 1983, het jaar van de Heineken-ontvoering, en beschrijft hoe zij en haar zus Sonja in 2013 besloten te getuigen tegen hun broer Willem Holleeder.",
+      "coverUrl": null,
+      "color": "#F5C4B3",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789022564387",
+      "title": "De val van een koning",
+      "author": "Joe Abercrombie",
+      "authors": [
+        "Joe Abercrombie"
+      ],
+      "genre": [
+        "Fiction",
+        "Fantasy"
+      ],
+      "language": "nl",
+      "pageCount": 640,
+      "publisher": "Boekerij",
+      "publishedDate": "2013",
+      "description": "Het derde en laatste deel van De Eerste Wet-trilogie. De oorlog woedt voort terwijl de politieke machtsstrijd in de Unie zijn hoogtepunt bereikt en de ware aard van de wereld pijnlijk duidelijk wordt. Originele titel: Last Argument of Kings.",
+      "coverUrl": null,
+      "color": "#C0DD97",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9780316024969",
+      "title": "New Moon",
+      "author": "Stephenie Meyer",
+      "authors": [
+        "Stephenie Meyer"
+      ],
+      "genre": [
+        "Fiction",
+        "Young Adult Fiction"
+      ],
+      "language": "en",
+      "pageCount": 563,
+      "publisher": "Little, Brown and Company",
+      "publishedDate": "2006",
+      "description": "The second book in the Twilight saga. When Edward Cullen leaves Bella Swan to protect her, heartbreak sends Bella into a spiral of reckless behavior that leads her to form a deep friendship with werewolf Jacob Black — and draws her back into danger.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780316024969-L.jpg",
+      "color": "#CECBF6",
+      "_source": "openlibrary",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
+    },
+    {
+      "isbn": "9789400511224",
+      "title": "De stilte van de witte stad",
+      "author": "Eva García Sáenz de Urturi",
+      "authors": [
+        "Eva García Sáenz de Urturi"
+      ],
+      "genre": [
+        "Fiction"
+      ],
+      "language": "nl",
+      "pageCount": null,
+      "publisher": "A.W. Bruna Uitgevers",
+      "publishedDate": "2019-07-09",
+      "description": "In de stille stad Vitoria wordt een jong stel gevonden: naakt en gedood door bijenstekers in hun keel, precies zoals bij een reeks moorden van twintig jaar geleden. Rechercheur Unai López de Ayala moet de zaak onderzoeken terwijl de veroordeelde verdachte van destijds net vrijkomt.",
+      "coverUrl": null,
+      "color": "#9FE1CB",
+      "_source": "google",
+      "status": "unread",
+      "rating": 0,
+      "dateAdded": "2026-04-27"
     }
   ]
 }
