@@ -304,6 +304,12 @@ function openManualAdd() {
 
   document.getElementById('manual-add-overlay').classList.add('visible');
   setTimeout(() => document.getElementById('add-title').focus(), 300);
+
+  // wire up Enter key on genre input each time sheet opens
+  const genreInput = document.getElementById('add-genre-input');
+  genreInput.onkeydown = e => {
+    if (e.key === 'Enter') { e.preventDefault(); addManualGenre(); }
+  };
 }
 
 function closeManualAdd(e) {
@@ -333,10 +339,6 @@ function removeManualGenre(g) {
   manualGenres = manualGenres.filter(x => x !== g);
   renderManualGenreTags();
 }
-
-document.getElementById('add-genre-input').addEventListener('keydown', e => {
-  if (e.key === 'Enter') { e.preventDefault(); addManualGenre(); }
-});
 
 function saveManualBook() {
   const title         = document.getElementById('add-title').value.trim();
