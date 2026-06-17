@@ -335,3 +335,27 @@ body {
 @keyframes spin {
   to { transform: rotate(360deg); }
 }
+
+/* ── overlay / sheet — shared across pages ── */
+.overlay {
+  display: none;
+  position: fixed; inset: 0;
+  background: rgba(26,20,16,0.5);
+  z-index: 200;
+  align-items: flex-end;
+  justify-content: center;
+}
+.overlay.visible { display: flex; }
+
+.sheet {
+  background: var(--bg-card);
+  border-radius: var(--radius) var(--radius) 0 0;
+  width: 100%; max-width: 430px;
+  padding: 24px 20px calc(env(safe-area-inset-bottom, 0px) + 24px);
+  animation: slideSheet 0.25s cubic-bezier(0.34,1.56,0.64,1) both;
+}
+
+@keyframes slideSheet {
+  from { transform: translateY(100%); }
+  to   { transform: translateY(0); }
+}

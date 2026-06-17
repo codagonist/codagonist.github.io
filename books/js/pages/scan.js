@@ -313,7 +313,8 @@ function openManualAdd() {
 }
 
 function closeManualAdd(e) {
-  if (e && e.target !== document.getElementById('manual-add-overlay')) return;
+  // if called from backdrop click, only close if clicking the backdrop itself
+  if (e instanceof MouseEvent && e.target !== document.getElementById('manual-add-overlay')) return;
   document.getElementById('manual-add-overlay').classList.remove('visible');
 }
 
