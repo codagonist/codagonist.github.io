@@ -311,6 +311,7 @@ const Books = (() => {
     exportJSON, importJSON,
     stats,
     cleanISBN,
+    randomColor,
   };
 
 })();
