@@ -108,7 +108,10 @@
     <div class="result-error" id="result-error">
       <div class="result-error-title">Book not found</div>
       <div class="result-error-sub" id="result-error-sub">No results for this ISBN.</div>
-      <button class="retry-btn" onclick="resetResult()">Try another scan</button>
+      <div class="error-actions">
+        <button class="retry-btn" onclick="resetResult()">Try another scan</button>
+        <button class="retry-btn primary" onclick="openManualAdd()">Add manually</button>
+      </div>
     </div>
 
   </div>
@@ -139,6 +142,93 @@
   </nav>
 
 </div>
+
+<!-- manual add sheet -->
+<div class="overlay" id="manual-add-overlay" onclick="closeManualAdd(event)">
+  <div class="manual-add-sheet">
+
+    <div class="manual-add-header">
+      <div class="manual-add-title">Add book manually</div>
+      <button class="icon-btn" onclick="closeManualAdd()" aria-label="Close">
+        <svg width="14" height="14" viewBox="0 0 20 20" fill="none">
+          <path d="M4 4l12 12M16 4L4 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="manual-add-body">
+
+      <div class="field-group">
+        <div class="field-group-label">Book info</div>
+        <div class="field">
+          <label class="field-label" for="add-title">Title <span style="color:var(--terra)">*</span></label>
+          <input class="field-input" id="add-title" type="text" placeholder="Book title">
+        </div>
+        <div class="field">
+          <label class="field-label" for="add-author">Author</label>
+          <input class="field-input" id="add-author" type="text" placeholder="Author name">
+          <span class="field-hint">Multiple authors: separate with a comma</span>
+        </div>
+        <div class="field">
+          <label class="field-label" for="add-description">Description</label>
+          <textarea class="field-textarea" id="add-description" placeholder="A short description…"></textarea>
+        </div>
+      </div>
+
+      <div class="field-group">
+        <div class="field-group-label">Genre</div>
+        <div class="field">
+          <div class="genre-tags" id="add-genre-tags"></div>
+          <div class="genre-add-row">
+            <input class="genre-input" id="add-genre-input" type="text"
+                   placeholder="Add a genre…" maxlength="40">
+            <button class="genre-add-btn" onclick="addManualGenre()">Add</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="field-group">
+        <div class="field-group-label">Publication</div>
+        <div class="field">
+          <label class="field-label" for="add-publisher">Publisher</label>
+          <input class="field-input" id="add-publisher" type="text" placeholder="Publisher name">
+        </div>
+        <div class="field">
+          <label class="field-label" for="add-publishedDate">Publication year</label>
+          <input class="field-input" id="add-publishedDate" type="text"
+                 placeholder="e.g. 2021" inputmode="numeric" maxlength="10">
+        </div>
+        <div class="field">
+          <label class="field-label" for="add-pageCount">Page count</label>
+          <input class="field-input" id="add-pageCount" type="number"
+                 inputmode="numeric" placeholder="e.g. 320" min="1">
+        </div>
+        <div class="field">
+          <label class="field-label" for="add-language">Language</label>
+          <select class="field-select" id="add-language"></select>
+        </div>
+      </div>
+
+      <div class="field-group">
+        <div class="field-group-label">Identifier</div>
+        <div class="field">
+          <label class="field-label" for="add-isbn">ISBN</label>
+          <input class="field-input" id="add-isbn" type="text"
+                 inputmode="numeric" placeholder="13-digit ISBN">
+          <span class="field-hint">Leave empty if unknown — a unique ID will be generated</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="manual-add-footer">
+      <button class="save-btn secondary" onclick="closeManualAdd()">Cancel</button>
+      <button class="save-btn primary" onclick="saveManualBook()">Add to collection</button>
+    </div>
+
+  </div>
+</div>
+
 <script src="https://fastly.jsdelivr.net/npm/barcode-detector@3/dist/iife/polyfill.min.js"></script>
 <script src="js/books.js"></script>
 <script src="js/pages/scan.js"></script>
